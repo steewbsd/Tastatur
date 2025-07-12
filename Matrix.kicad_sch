@@ -1,0 +1,10149 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "547c48df-f639-4b94-b434-c30c4384df2e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "#inventree:RC0603FR-071KL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1 kohm"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 1K OHM 1% 1/10W 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "InvenTree" "69"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounting Type" "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package Type" "0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part URL" "http://10.0.0.41:7333/part/69/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rated Power" "0.1W, 1/10W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-071KL_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RC0603FR-071KL_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:CD4148W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CD4148W"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.dccomponents.com/upload/product/original/623524775088.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Switching Diode, 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*0805*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CD4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CD4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 196.342 106.934)
+		(end 211.836 121.666)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 017c3718-3d0e-4f96-87b7-f7cd8f307888)
+	)
+	(rectangle
+		(start 148.082 130.302)
+		(end 163.576 145.034)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 0875f4f5-6630-4c0d-93b3-3fc4896dcd42)
+	)
+	(rectangle
+		(start 171.958 62.738)
+		(end 187.452 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 158214e9-6ee7-4538-b7b8-a5b1abcf9a79)
+	)
+	(rectangle
+		(start 101.346 62.992)
+		(end 116.84 77.724)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 1d2d02b0-4309-455e-8f4b-a818ad8cf212)
+	)
+	(rectangle
+		(start 171.958 106.934)
+		(end 187.452 121.666)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 57c6a584-5563-449b-9663-90315cfec89f)
+	)
+	(rectangle
+		(start 196.342 62.738)
+		(end 211.836 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 60d152cb-224d-4a58-95af-a92c40da245d)
+	)
+	(rectangle
+		(start 196.342 130.048)
+		(end 211.836 144.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 6333b943-95aa-48db-aea1-27f3a9ee3301)
+	)
+	(rectangle
+		(start 171.958 84.074)
+		(end 187.452 98.806)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 88a8ec7c-4483-4787-8fcd-5ba43b323f93)
+	)
+	(rectangle
+		(start 148.082 84.328)
+		(end 163.576 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid 94532aca-b69a-414f-99f7-141e7d3102e5)
+	)
+	(rectangle
+		(start 101.346 107.188)
+		(end 116.84 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid b219308c-2b25-4f61-ae9a-4e72b48c3feb)
+	)
+	(rectangle
+		(start 125.222 84.074)
+		(end 140.716 98.806)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid c541d16a-79ab-471f-9f33-48e1c4293671)
+	)
+	(rectangle
+		(start 148.082 107.188)
+		(end 163.576 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid cf984cad-6669-47be-8ffb-dee38a370a8e)
+	)
+	(rectangle
+		(start 196.342 84.074)
+		(end 211.836 98.806)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid cfc34e6a-4b92-4df2-b970-4a4ab59a0ab5)
+	)
+	(rectangle
+		(start 125.222 106.934)
+		(end 140.716 121.666)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid d8af314f-f03e-4921-b773-721ea11adda9)
+	)
+	(rectangle
+		(start 101.346 84.328)
+		(end 116.84 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid dac82330-9bdc-4e46-a0d9-23120b280830)
+	)
+	(rectangle
+		(start 125.222 62.738)
+		(end 140.716 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid e84751d1-d42c-4ec4-83de-c2357f7d0965)
+	)
+	(rectangle
+		(start 171.958 130.048)
+		(end 187.452 144.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid ebce7952-5b4e-46f7-90df-bf5a7e04580c)
+	)
+	(rectangle
+		(start 148.082 62.992)
+		(end 163.576 77.724)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 132 132 1)
+		)
+		(uuid f06e265d-906c-4c38-bd95-274f8696f7c6)
+	)
+	(junction
+		(at 138.43 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0de9746a-e38b-40d4-9f30-4a3c90c8fb7b")
+	)
+	(junction
+		(at 114.3 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b51c318-bec2-4720-b74d-b4ee1c90f888")
+	)
+	(junction
+		(at 149.86 110.49)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "1f2b503c-6869-4acf-88c4-d59f4bf44759")
+	)
+	(junction
+		(at 63.5 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ce40f90-6c4a-4402-b1af-1923889d3333")
+	)
+	(junction
+		(at 149.86 66.04)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "33533272-63ec-40a7-9704-ed0c656d0d4f")
+	)
+	(junction
+		(at 102.87 87.63)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "39399495-e46c-48d4-8d84-8cf76035eb5c")
+	)
+	(junction
+		(at 114.3 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c2274d8-41fe-4748-ab26-6366c1519816")
+	)
+	(junction
+		(at 198.12 87.63)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "416257e9-5bfc-4d75-969d-7557bb9be907")
+	)
+	(junction
+		(at 97.79 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42df7968-73ec-4fcf-aa9c-e72ee0e7caaf")
+	)
+	(junction
+		(at 63.5 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "440713ff-3322-419f-9e7f-973ff3143a81")
+	)
+	(junction
+		(at 138.43 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46b1a2c8-0520-49f4-8d31-5cc36e3b5cba")
+	)
+	(junction
+		(at 144.78 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46c4065b-ddfa-4942-92cc-1bf8cf7a8294")
+	)
+	(junction
+		(at 167.64 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5602cafb-4671-46cb-aedf-ec639a1eac5b")
+	)
+	(junction
+		(at 144.78 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b65ff95-42a1-44a7-ad13-0c3070da6cb2")
+	)
+	(junction
+		(at 167.64 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dc8a5b6-09d7-493d-8b43-cde222a5d243")
+	)
+	(junction
+		(at 138.43 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "633cb60b-8b4a-42fe-b810-2065b441a4ca")
+	)
+	(junction
+		(at 185.42 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66bdec69-1f3a-455b-b9a0-1dc4ab48a022")
+	)
+	(junction
+		(at 167.64 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67c4af54-8cd3-4da4-8423-940bcea208b6")
+	)
+	(junction
+		(at 114.3 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71222319-fde2-4d2e-8a5f-4d9f5adf944d")
+	)
+	(junction
+		(at 127 87.63)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "71c915a6-132b-4d07-8290-ea2545161f6a")
+	)
+	(junction
+		(at 120.65 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73caf51f-d40b-4325-9d22-66c4baac58f1")
+	)
+	(junction
+		(at 185.42 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77c1f4f1-64e9-4ad7-9bd0-d9f7c5161763")
+	)
+	(junction
+		(at 161.29 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bbe38fc-bcd2-492a-8fac-644b75f595bd")
+	)
+	(junction
+		(at 161.29 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "878e152b-11a2-4911-835a-a0328948a31a")
+	)
+	(junction
+		(at 96.52 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d2c7864-ea0f-4405-b7d2-cc83aaea9391")
+	)
+	(junction
+		(at 161.29 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ffda035-670a-4f55-822b-397cb1ccf154")
+	)
+	(junction
+		(at 185.42 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a10c5159-5c31-469f-b60d-c40dca12a046")
+	)
+	(junction
+		(at 96.52 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1bb60c5-cfe0-4f56-a988-ff8ce4972d2c")
+	)
+	(junction
+		(at 144.78 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aeda1080-d56c-4ff4-86fc-6471cec7fdd4")
+	)
+	(junction
+		(at 161.29 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b107157a-8a16-426e-a67b-71001c76ec80")
+	)
+	(junction
+		(at 120.65 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0ea471b-1ead-4349-95e0-f520c2f5ac94")
+	)
+	(junction
+		(at 167.64 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbf62b6a-22a6-43ba-8b10-a8706e1043a0")
+	)
+	(junction
+		(at 127 66.04)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "cd15c59a-251d-4f92-9d0f-4b424c79075c")
+	)
+	(junction
+		(at 185.42 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf582e41-2251-4365-bc45-20c8109a1d7e")
+	)
+	(junction
+		(at 173.99 66.04)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "d0b82647-1982-4a9e-bb81-0e6354f9aea6")
+	)
+	(junction
+		(at 173.99 110.49)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "d2ec80a9-47af-46f1-be64-b359b7689a4e")
+	)
+	(junction
+		(at 144.78 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7195ba7-417a-421a-87f7-8b10f26e6975")
+	)
+	(junction
+		(at 198.12 110.49)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "d80ba860-c1ea-4e4b-8a3f-0325f4d2e406")
+	)
+	(junction
+		(at 63.5 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddaa6c40-1cfb-40e3-af28-b61687ed2f23")
+	)
+	(junction
+		(at 198.12 66.04)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "e28ded50-1ab8-4a05-8b4c-11ce67c84e97")
+	)
+	(junction
+		(at 149.86 87.63)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "e8bb1efb-0db4-4693-8945-19ef1656382c")
+	)
+	(junction
+		(at 120.65 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb864768-4398-44b6-8381-6a5346bd89d7")
+	)
+	(junction
+		(at 173.99 87.63)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "f4fe179e-4af7-4426-a496-89692b8ef288")
+	)
+	(junction
+		(at 102.87 66.04)
+		(diameter 0)
+		(color 132 0 132 1)
+		(uuid "f6ee6094-e908-4a77-8682-9278887a8809")
+	)
+	(wire
+		(pts
+			(xy 209.55 133.35) (xy 209.55 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00113ad0-1a2b-476b-8c43-8ae9ee92d5f8")
+	)
+	(wire
+		(pts
+			(xy 160.02 133.35) (xy 161.29 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023d5dcc-0243-4a1c-8291-e6bf48472777")
+	)
+	(wire
+		(pts
+			(xy 160.02 87.63) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0628cbba-496d-43b3-a71a-9925a7951e10")
+	)
+	(wire
+		(pts
+			(xy 96.52 99.06) (xy 120.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08318db6-e4a1-4a2d-8b3c-cd197e3f75a2")
+	)
+	(wire
+		(pts
+			(xy 160.02 66.04) (xy 161.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a313dc6-b95d-4d5e-b252-b12fbbc964d5")
+	)
+	(wire
+		(pts
+			(xy 185.42 142.24) (xy 209.55 142.24)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0b1bc778-caec-41f0-b541-9b2515f43e33")
+	)
+	(wire
+		(pts
+			(xy 149.86 110.49) (xy 149.86 133.35)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "0e474065-bd19-4544-9789-15d698a57113")
+	)
+	(wire
+		(pts
+			(xy 208.28 87.63) (xy 209.55 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c12721-5bdc-4648-9d6f-6170d7b09933")
+	)
+	(wire
+		(pts
+			(xy 138.43 96.52) (xy 161.29 96.52)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1747dafa-964e-40c1-bd80-59e462d69f9f")
+	)
+	(wire
+		(pts
+			(xy 120.65 77.47) (xy 144.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188785a1-0446-47e8-bb20-3acf4ce12dae")
+	)
+	(wire
+		(pts
+			(xy 102.87 66.04) (xy 102.87 87.63)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "1be84c6f-b26e-48b3-bb8d-51162d756ee9")
+	)
+	(wire
+		(pts
+			(xy 184.15 133.35) (xy 185.42 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ddfdb21-d6af-4bed-9a23-5fb78d430b33")
+	)
+	(wire
+		(pts
+			(xy 138.43 66.04) (xy 138.43 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21673be5-a824-4fd1-a039-92912115737f")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 167.64 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a3465e-25fb-405b-b8e7-9655c4ac9866")
+	)
+	(wire
+		(pts
+			(xy 185.42 110.49) (xy 185.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb62f3c-f3f3-4fff-9488-c538d2675c32")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.49) (xy 114.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc5d101-f26e-45ad-a1a1-1f8be7c47fc3")
+	)
+	(wire
+		(pts
+			(xy 198.12 66.04) (xy 198.12 87.63)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "324d6b27-989b-4312-a600-1eb1847523e3")
+	)
+	(wire
+		(pts
+			(xy 208.28 133.35) (xy 209.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3663c8f1-c5f1-46fb-a217-bd61574dd1c5")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 138.43 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38397b54-c475-4650-be16-fa1ce9fc11aa")
+	)
+	(wire
+		(pts
+			(xy 127 66.04) (xy 127 87.63)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "3aacbdee-0dd0-426f-86c3-6550e34efbfc")
+	)
+	(wire
+		(pts
+			(xy 173.99 110.49) (xy 173.99 133.35)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "3c151f25-807b-4c3d-8540-4fad59c0fe4c")
+	)
+	(wire
+		(pts
+			(xy 63.5 55.88) (xy 63.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2776af-b563-4193-a5bb-4556ded71027")
+	)
+	(wire
+		(pts
+			(xy 161.29 87.63) (xy 161.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a7e6c5-f64d-490a-ad32-7cbb6063e7bf")
+	)
+	(wire
+		(pts
+			(xy 102.87 58.42) (xy 102.87 66.04)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "423a656c-f0aa-461d-a399-a2bf51138d2a")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42bc25b3-9ca9-430b-98dd-6a77d8d99115")
+	)
+	(wire
+		(pts
+			(xy 208.28 66.04) (xy 209.55 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478cceea-355d-42a5-b650-51440a1e9b6a")
+	)
+	(wire
+		(pts
+			(xy 138.43 110.49) (xy 138.43 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e52624-7df9-475a-8b06-f1988a28c370")
+	)
+	(wire
+		(pts
+			(xy 161.29 110.49) (xy 161.29 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2c86f4-f2bb-46e3-b279-e6313f413c5f")
+	)
+	(wire
+		(pts
+			(xy 208.28 110.49) (xy 209.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50962146-cde5-428a-b756-3a1ba8ef3457")
+	)
+	(wire
+		(pts
+			(xy 137.16 66.04) (xy 138.43 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532ee198-c694-4419-af5f-35cfb6ab78cb")
+	)
+	(wire
+		(pts
+			(xy 198.12 110.49) (xy 198.12 133.35)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "53b01d82-83ea-4814-991c-5e2356fae558")
+	)
+	(wire
+		(pts
+			(xy 97.79 55.88) (xy 120.65 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55381dc0-6245-4ac7-98c5-7f96444d8ed1")
+	)
+	(wire
+		(pts
+			(xy 144.78 121.92) (xy 167.64 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e2b528-5afb-4e2c-985f-a7c80d966460")
+	)
+	(wire
+		(pts
+			(xy 161.29 142.24) (xy 185.42 142.24)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5e2c22c8-c10f-4d51-8cf6-40648420f09b")
+	)
+	(wire
+		(pts
+			(xy 161.29 133.35) (xy 161.29 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6038f0b9-a849-46bc-89be-d60032cf7289")
+	)
+	(wire
+		(pts
+			(xy 144.78 55.88) (xy 167.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630cc4c0-b40f-46f3-b97b-9196ace66101")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 138.43 74.93)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "641e3dae-2c49-4d58-a0f4-cfba27ed94fa")
+	)
+	(wire
+		(pts
+			(xy 184.15 110.49) (xy 185.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e0a4ef-ef4a-4493-947b-4235ae671f63")
+	)
+	(wire
+		(pts
+			(xy 137.16 110.49) (xy 138.43 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce89710-d23a-48fc-b084-70930693c242")
+	)
+	(wire
+		(pts
+			(xy 167.64 77.47) (xy 191.77 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df7eb06-e2da-4518-9505-b6ac99a6a317")
+	)
+	(wire
+		(pts
+			(xy 63.5 77.47) (xy 63.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ead9bba-237d-4362-97f4-d990e095975a")
+	)
+	(wire
+		(pts
+			(xy 63.5 55.88) (xy 97.79 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b7e6c5-fd71-4c66-93cd-c29135122f96")
+	)
+	(wire
+		(pts
+			(xy 114.3 87.63) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75669cf7-e279-448b-827d-d38d535b4e5a")
+	)
+	(wire
+		(pts
+			(xy 63.5 99.06) (xy 63.5 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "762b85b1-6723-4749-957f-b89299d2dc9a")
+	)
+	(wire
+		(pts
+			(xy 198.12 87.63) (xy 198.12 110.49)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "7714e4a8-110f-48a8-978b-a57371260e15")
+	)
+	(wire
+		(pts
+			(xy 127 87.63) (xy 127 110.49)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "7f3433b6-9093-43b8-9968-bc1122f9a6d8")
+	)
+	(wire
+		(pts
+			(xy 185.42 96.52) (xy 209.55 96.52)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7f86f25f-431c-4e6a-82a4-85d9b7bd08be")
+	)
+	(wire
+		(pts
+			(xy 92.71 119.38) (xy 114.3 119.38)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "85997581-d647-4756-8196-643e78efdc8b")
+	)
+	(wire
+		(pts
+			(xy 114.3 66.04) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88421245-e060-499d-bffa-48bbc663e1fd")
+	)
+	(wire
+		(pts
+			(xy 167.64 121.92) (xy 191.77 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1b5574-d29c-4438-9859-dabdd4f3b87c")
+	)
+	(wire
+		(pts
+			(xy 63.5 50.8) (xy 63.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9408d4f7-3fd0-4d4d-a814-aef6e9889e66")
+	)
+	(wire
+		(pts
+			(xy 92.71 96.52) (xy 114.3 96.52)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "95614870-5789-4a92-b6e4-fcb418d8c9cc")
+	)
+	(wire
+		(pts
+			(xy 137.16 87.63) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dabea43-8f15-4559-9fb9-5c91fe1a13b8")
+	)
+	(wire
+		(pts
+			(xy 92.71 142.24) (xy 161.29 142.24)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9ef36082-72b7-4800-932b-bf5507694d70")
+	)
+	(wire
+		(pts
+			(xy 161.29 119.38) (xy 185.42 119.38)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9ff630a0-2372-4e41-9edc-7a098d5348d7")
+	)
+	(wire
+		(pts
+			(xy 161.29 66.04) (xy 161.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09f3563-2fc5-46cf-a4e3-c5fd197224e6")
+	)
+	(wire
+		(pts
+			(xy 63.5 121.92) (xy 144.78 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47d046c-3b92-486b-9737-22f21ba1fb41")
+	)
+	(wire
+		(pts
+			(xy 185.42 66.04) (xy 185.42 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51af990-8585-4e3b-9467-cfe70afb6667")
+	)
+	(wire
+		(pts
+			(xy 160.02 110.49) (xy 161.29 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a7225c-fd53-4bb8-a245-ea8b5c66ba6b")
+	)
+	(wire
+		(pts
+			(xy 173.99 66.04) (xy 173.99 87.63)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "a8cd07ad-44d7-4907-89a6-af9810e39b3f")
+	)
+	(wire
+		(pts
+			(xy 114.3 96.52) (xy 138.43 96.52)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "aa3be333-7e89-4757-9e62-14da827e4418")
+	)
+	(wire
+		(pts
+			(xy 185.42 74.93) (xy 209.55 74.93)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "afc2c72e-4b5e-4fa2-953e-16566c38265e")
+	)
+	(wire
+		(pts
+			(xy 184.15 66.04) (xy 185.42 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b4ceea-56d3-47b7-ae1e-3d28ae277544")
+	)
+	(wire
+		(pts
+			(xy 198.12 58.42) (xy 198.12 66.04)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "b2e08d55-9a6c-495b-9ef9-220fd0bb51f3")
+	)
+	(wire
+		(pts
+			(xy 120.65 55.88) (xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b471bf8b-d0f5-4539-bc11-73ff3474adb2")
+	)
+	(wire
+		(pts
+			(xy 114.3 119.38) (xy 138.43 119.38)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ba1e984b-abc9-47c2-8b75-d85faa7c7ab0")
+	)
+	(wire
+		(pts
+			(xy 149.86 66.04) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "ba29e295-4a43-4426-93c9-0a7a3f6bb02e")
+	)
+	(wire
+		(pts
+			(xy 209.55 110.49) (xy 209.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd792cbc-6400-4a2e-81ba-c2ae206ade1c")
+	)
+	(wire
+		(pts
+			(xy 138.43 119.38) (xy 161.29 119.38)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "bdf9a275-bf8b-4460-a998-35b65d504264")
+	)
+	(wire
+		(pts
+			(xy 173.99 87.63) (xy 173.99 110.49)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "c092e2fa-7cf7-44aa-b6dd-870b78bcd1fe")
+	)
+	(wire
+		(pts
+			(xy 63.5 99.06) (xy 96.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f18308-a98d-412f-9656-3a37cfd8c24f")
+	)
+	(wire
+		(pts
+			(xy 161.29 96.52) (xy 185.42 96.52)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c9f9cb52-7587-413a-94ce-05fe8b9513c2")
+	)
+	(wire
+		(pts
+			(xy 185.42 133.35) (xy 185.42 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9ad3a5-85e8-48dd-8236-525d3163b17f")
+	)
+	(wire
+		(pts
+			(xy 161.29 74.93) (xy 185.42 74.93)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "cc2a85dc-12fd-4dca-8dac-185194d7a8e7")
+	)
+	(wire
+		(pts
+			(xy 113.03 66.04) (xy 114.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdae5e5b-b39a-463e-b8c0-207f05b45e98")
+	)
+	(wire
+		(pts
+			(xy 149.86 87.63) (xy 149.86 110.49)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "cef83822-0d1e-4713-8ee0-464d345e4b59")
+	)
+	(wire
+		(pts
+			(xy 173.99 58.42) (xy 173.99 66.04)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "cf863ece-7297-492d-8a42-21e6c7d12d51")
+	)
+	(wire
+		(pts
+			(xy 209.55 87.63) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffc6d7f-dfff-4dea-9560-9a6131bcccfa")
+	)
+	(wire
+		(pts
+			(xy 113.03 87.63) (xy 114.3 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc532f88-1eb8-4552-9e79-5a5f550d7987")
+	)
+	(wire
+		(pts
+			(xy 127 58.42) (xy 127 66.04)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "dcd1f8a8-0648-4451-bd0b-29b5d11bfe5b")
+	)
+	(wire
+		(pts
+			(xy 63.5 77.47) (xy 96.52 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb84534-1dc3-4d09-812c-3e53c16a39d5")
+	)
+	(wire
+		(pts
+			(xy 92.71 74.93) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e48af9da-991b-4867-b99b-170d20a5cbf1")
+	)
+	(wire
+		(pts
+			(xy 138.43 74.93) (xy 161.29 74.93)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e63b1c11-592f-4c6e-80cb-d9e027e7401c")
+	)
+	(wire
+		(pts
+			(xy 184.15 87.63) (xy 185.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f9bc1d-4791-418a-a239-110e43597f04")
+	)
+	(wire
+		(pts
+			(xy 185.42 87.63) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec722ed9-c482-4059-8f30-5b416b450cfa")
+	)
+	(wire
+		(pts
+			(xy 102.87 87.63) (xy 102.87 110.49)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "ed521780-6364-490c-85de-f9354aeabe74")
+	)
+	(wire
+		(pts
+			(xy 149.86 58.42) (xy 149.86 66.04)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "ee9b49a2-e785-41a1-8fde-7ef7f01a00da")
+	)
+	(wire
+		(pts
+			(xy 96.52 77.47) (xy 120.65 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0db37a3-9e76-415f-8bb2-bd2a3b188758")
+	)
+	(wire
+		(pts
+			(xy 167.64 55.88) (xy 191.77 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e68682-eb00-4e57-96d6-985bac71a306")
+	)
+	(wire
+		(pts
+			(xy 185.42 119.38) (xy 209.55 119.38)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f7f44179-861c-44df-9107-30ab44165ebb")
+	)
+	(wire
+		(pts
+			(xy 167.64 99.06) (xy 191.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8707f0b-5741-4931-bc33-9a136334ca2f")
+	)
+	(wire
+		(pts
+			(xy 120.65 99.06) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa16e874-2b0c-491b-9a5d-9b9f15ed2436")
+	)
+	(wire
+		(pts
+			(xy 113.03 110.49) (xy 114.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7b43ca-1c01-4e0f-9054-2aca7885b9f7")
+	)
+	(wire
+		(pts
+			(xy 209.55 66.04) (xy 209.55 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffae6917-bc3a-4e70-9c22-0c275447024b")
+	)
+	(hierarchical_label "KB_COL_0"
+		(shape input)
+		(at 102.87 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "076131fd-bccd-472f-a89e-53a3d7fc8cbb")
+	)
+	(hierarchical_label "KB_COL_1"
+		(shape input)
+		(at 127 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1062eda5-3570-4a1e-a71f-00b0e9b1fe5b")
+	)
+	(hierarchical_label "KB_COL_3"
+		(shape input)
+		(at 173.99 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1208de79-17b6-4d21-a95f-8db5a5619c96")
+	)
+	(hierarchical_label "KB_COL_2"
+		(shape input)
+		(at 149.86 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "125fd55a-9ca7-4748-a9e5-092ec0eefa5d")
+	)
+	(hierarchical_label "KB_ROW_2"
+		(shape output)
+		(at 92.71 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e88081c-10b0-4424-9aeb-845531c8ae77")
+	)
+	(hierarchical_label "KB_ROW_1"
+		(shape output)
+		(at 92.71 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d480250-8c46-47fc-ba7c-82e3eaf9e2b0")
+	)
+	(hierarchical_label "KB_ROW_3"
+		(shape output)
+		(at 92.71 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f7ac053-300a-4609-9a67-43c14a97e818")
+	)
+	(hierarchical_label "KB_ROW_0"
+		(shape output)
+		(at 92.71 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf968255-0c52-44c4-b5a0-d5609f4c67bc")
+	)
+	(hierarchical_label "LED_DRIVE"
+		(shape input)
+		(at 63.5 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 255 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d0fef40f-fdf2-4ec0-9e26-774afa270457")
+	)
+	(hierarchical_label "KB_COL_4"
+		(shape input)
+		(at 198.12 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f570a0af-3778-467d-a242-70df0441659e")
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 120.65 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0141d594-9318-41a2-ae96-cd07c86456a1")
+		(property "Reference" "R13"
+			(at 120.65 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 122.936 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 118.872 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65419088-a068-43a3-b6d5-dae9f8f23197")
+		)
+		(pin "1"
+			(uuid "be6187e1-bc31-4667-a7d8-2f6584eadc2f")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 209.55 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "035ca9b9-2e74-422a-a296-35bfd7de6c19")
+		(property "Reference" "D35"
+			(at 198.374 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 198.374 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 214.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 209.55 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b933edb-c865-4233-ab04-3dcaadaf87ae")
+		)
+		(pin "1"
+			(uuid "cdc22717-b46a-47d5-8e56-d892d95d43ce")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 138.43 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "038f3790-6c65-4b08-8ef7-c6b84294fa16")
+		(property "Reference" "D11"
+			(at 127.254 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 127.254 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 143.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 138.43 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d66c879-e76b-47f6-b79c-cc17881c3213")
+		)
+		(pin "1"
+			(uuid "67d19fa3-4e63-428c-a64f-c9f876f9a659")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 97.79 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04c55334-2e61-40d8-80f1-3e94c92efead")
+		(property "Reference" "D4"
+			(at 95.25 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 101.6 70.1674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 97.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 97.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 97.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f9c435f-5b4a-4faf-ae0d-bec8925a6019")
+		)
+		(pin "2"
+			(uuid "388d4596-0fa0-474c-a129-667018fa1302")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 203.2 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09846464-ef6a-4be8-b108-f44d54245858")
+		(property "Reference" "SW15"
+			(at 203.2 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 203.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9b6b92f-4699-4355-9c6c-75f4c46842a4")
+		)
+		(pin "1"
+			(uuid "901226d1-6493-4612-a188-b7fb034fba89")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 161.29 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0aa3e113-bb3e-4ad2-9477-a173a83309aa")
+		(property "Reference" "D18"
+			(at 150.114 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 150.114 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 161.29 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d29c0676-a28f-40ca-9980-b67df5b20161")
+		)
+		(pin "1"
+			(uuid "ef7b9a7a-3d26-46c6-a9e5-4683a5a333e2")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 96.52 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cd61be6-3466-412a-9e4f-5332ab9f2d28")
+		(property "Reference" "R11"
+			(at 96.52 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 98.806 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 94.742 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b177f28-1ed8-43f3-acd2-9c337187124c")
+		)
+		(pin "1"
+			(uuid "e367acee-7c37-4a65-ac5e-47b783fb1029")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 120.65 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d7a901c-b3b7-456c-9d0a-eabfc7a5244b")
+		(property "Reference" "D8"
+			(at 118.11 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 124.46 70.1674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 120.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 120.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 120.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3378e0e-586c-4bc5-bbd7-7a1eec130c29")
+		)
+		(pin "2"
+			(uuid "a4070792-a717-44b8-9dc2-c9ff17067902")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2292ccbf-2351-4dc8-adcf-38135b9f62d2")
+		(property "Reference" "#PWR057"
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de3d8b90-ae4e-4169-a82c-b0b52fddb632")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 167.64 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25086fa2-d18b-4766-9303-06d43dbd69eb")
+		(property "Reference" "R21"
+			(at 167.64 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 169.926 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 165.862 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc918b90-792f-4f92-a76b-089f9665b7bb")
+		)
+		(pin "1"
+			(uuid "a402e97b-941d-4b0e-ac52-7f31d2c8a06c")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "282838a1-babd-40cf-8013-4fe2bb0f4f80")
+		(property "Reference" "#PWR056"
+			(at 144.78 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3b8f035-b526-4d41-8d18-12471a371c69")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 191.77 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a680c3e-2bf7-4599-8072-351c260bbb94")
+		(property "Reference" "R27"
+			(at 191.77 127.762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 194.056 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 189.992 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7cc93877-b666-49ed-b589-14f4fea6f516")
+		)
+		(pin "1"
+			(uuid "b1ff30dc-de0e-4091-82c0-cf82ecdd3b51")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 191.77 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c9c404d-aa8f-4e28-85f9-1e79bde96ebc")
+		(property "Reference" "D31"
+			(at 189.23 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 195.58 91.7574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "388c3c96-7955-4cf6-b6b6-5822f7c1552f")
+		)
+		(pin "2"
+			(uuid "308077f8-ad51-4e75-a8d4-51637abaf6e0")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 132.08 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ca9b0d1-497f-48e1-bcc1-a8e96eba220b")
+		(property "Reference" "SW4"
+			(at 131.826 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71f6a4f2-afe6-4165-97be-12131ad5fe1d")
+		)
+		(pin "1"
+			(uuid "3e40fe3b-e9a0-49d4-8b67-1b4149a1ffb5")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 185.42 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f801d13-508a-4a3f-8c06-e5ef6fac3ed0")
+		(property "Reference" "D29"
+			(at 174.244 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 174.244 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 190.5 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 185.42 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cc932a2c-9092-4de5-b8bf-8ec7c9798944")
+		)
+		(pin "1"
+			(uuid "3e67b9be-0fa1-49c5-b69a-b8f3f19fb39b")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 154.94 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30351521-5c52-4647-9151-021e560e8e3f")
+		(property "Reference" "SW10"
+			(at 154.94 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 154.94 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 154.94 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 154.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be325f2b-7c01-420b-a535-bf42b7c93349")
+		)
+		(pin "1"
+			(uuid "790a96de-7a2c-45e4-8e92-21a7b3c28a44")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 191.77 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32201340-a338-4e61-9bda-9125f1725cdf")
+		(property "Reference" "D30"
+			(at 189.23 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 195.58 70.1674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 191.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 191.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 191.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8603b6e7-01c0-45c4-9416-7b1eef27afdf")
+		)
+		(pin "2"
+			(uuid "ceffcf6f-a3c8-4660-b2f3-ea7cebdff432")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 203.2 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33ca1518-0989-42e4-ad7d-19d7959e234d")
+		(property "Reference" "SW16"
+			(at 203.2 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 203.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "706d845e-9312-4bb0-b7a6-281dc9d8e190")
+		)
+		(pin "1"
+			(uuid "afe9cfec-1710-497a-b150-354e64722695")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 191.77 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35876478-db0a-4dbb-9f53-129c0661a5d6")
+		(property "Reference" "R24"
+			(at 191.77 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 194.056 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 189.992 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c59114d5-9cb9-46db-9afc-b78199ae46bf")
+		)
+		(pin "1"
+			(uuid "8fa932bf-3032-4979-b4c4-d51fcbf45c48")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 179.07 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37965e4c-f688-49fa-a672-06d47f1faa9e")
+		(property "Reference" "SW14"
+			(at 179.07 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 179.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d864ca55-8c8e-4434-bac7-f19ca0d55bd1")
+		)
+		(pin "1"
+			(uuid "c4497330-12d8-4f94-a210-8265fd8c4841")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c47efc0-0b4c-4b2f-b253-36aaa7f42ffa")
+		(property "Reference" "#PWR058"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5c3e75-c3fe-4cc4-8345-dcfba165f834")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 167.64 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d5292e1-c5c8-42a9-af06-3390d41812f2")
+		(property "Reference" "D25"
+			(at 165.1 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 171.45 136.2074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e3f5ec6-b2d9-48e9-9ca8-4323fb6b431a")
+		)
+		(pin "2"
+			(uuid "06c5eab2-f176-4d1e-8750-16bae98efc16")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e92dbbf-c54e-4d3b-89b0-3fa10176a085")
+		(property "Reference" "#PWR066"
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3efa71b1-ea9a-42b8-8ff8-d58b14fbcc4a")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40be1103-a693-465e-9ec8-37d964f1df1b")
+		(property "Reference" "#PWR054"
+			(at 120.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b7fbbc9-30f9-48f3-bda8-e99e51438205")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 144.78 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40cc71d8-953c-4837-94e8-602e132deec7")
+		(property "Reference" "D17"
+			(at 142.24 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 148.59 136.2074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fdd6d12-c40e-4b2e-9544-2bf58f244a44")
+		)
+		(pin "2"
+			(uuid "9c5249fb-b78e-4dc7-9ef1-f7bc5ad5309f")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 154.94 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "448c0347-6595-41e2-ae94-45ca93d75c15")
+		(property "Reference" "SW9"
+			(at 154.94 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 154.94 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0b7dc04-5ae9-49e4-bb0a-7ddd4fa2533f")
+		)
+		(pin "1"
+			(uuid "491b21d9-80a8-4e0f-a815-e9c8154ddcd0")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d7edab7-c358-45cb-92ae-e9f2220e606f")
+		(property "Reference" "#PWR067"
+			(at 191.77 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16efeb68-2194-489a-9eff-69166b8fb70d")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 167.64 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e89ac1d-3234-48cc-a4ce-059344ed3bca")
+		(property "Reference" "D23"
+			(at 165.1 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 171.45 91.7574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "951620b7-2fa5-402e-9bae-b853616db6c0")
+		)
+		(pin "2"
+			(uuid "a4f8ed9c-6d89-48c0-b3ee-a6fed23238d6")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 167.64 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "536bfc28-a604-4146-a23d-5341f839f0ce")
+		(property "Reference" "R22"
+			(at 167.64 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 169.926 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 165.862 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5701366e-2c9f-4c51-be01-4ff0c3e6d507")
+		)
+		(pin "1"
+			(uuid "1fcc214f-3067-4b09-b013-68dc87663654")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 191.77 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "559b90a2-2c0a-409a-a7c1-e91faa20b50a")
+		(property "Reference" "D32"
+			(at 189.23 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 195.58 113.3474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 191.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 191.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 191.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7b69827-9c6d-4bc6-9d44-573a5d3c861e")
+		)
+		(pin "2"
+			(uuid "d177df1b-c904-4000-9783-0832f4419cd2")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 209.55 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5faba3bc-564f-401a-9265-839648bdc699")
+		(property "Reference" "D36"
+			(at 198.374 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 198.374 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 214.63 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 209.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 209.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 209.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 209.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 209.55 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d56cb1e3-16a2-4a90-8a23-c4cf3426753b")
+		)
+		(pin "1"
+			(uuid "3e5e6f1e-5a7d-420b-bb58-434f6306d283")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 185.42 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "617e4dea-b5a2-48d7-8700-67480ac6ba6b")
+		(property "Reference" "D28"
+			(at 174.244 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 174.244 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 185.42 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3c4993a-75bf-49d9-bb66-5f568cf0de46")
+		)
+		(pin "1"
+			(uuid "2d4956c6-5650-4953-9e97-49822e00c332")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 97.79 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "670a73c2-0937-40c1-8243-2ec4513a24a9")
+		(property "Reference" "R12"
+			(at 97.79 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 100.076 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 96.012 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca3b93b2-a28a-40f8-b79f-b41da56fff60")
+		)
+		(pin "1"
+			(uuid "7c17c7e1-b52c-4e46-bab4-81074f354bc0")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 120.65 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "681f17be-a2ed-4a43-a77f-78e2a2cd2b88")
+		(property "Reference" "D9"
+			(at 118.11 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 124.46 91.7574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8a8b579-4d3d-4cc1-8ccf-560a2fa94753")
+		)
+		(pin "2"
+			(uuid "bf9062e0-f849-4cb2-b5ec-ead75831494d")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 161.29 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b9d3c30-a40f-44d1-ba96-35e391deefb5")
+		(property "Reference" "D19"
+			(at 150.114 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 150.114 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 161.29 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e448a19-98ba-4992-9f1b-331b7d926c4c")
+		)
+		(pin "1"
+			(uuid "c541a27e-b365-4ca6-a69b-1e143bf70da8")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 144.78 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f548138-9a3c-464b-8f1a-82c5ac496f71")
+		(property "Reference" "D14"
+			(at 142.24 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 148.59 70.1674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ed454c9-9f84-448d-8a6f-c32a16ad0b63")
+		)
+		(pin "2"
+			(uuid "3e94f4fb-ffb2-413f-8836-0dc9bf1695f1")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 179.07 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fd01314-5cf1-4c3e-9dd0-93426483220f")
+		(property "Reference" "SW11"
+			(at 179.07 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 179.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 179.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "886df3d9-5035-42eb-8f7b-dfd553171d43")
+		)
+		(pin "1"
+			(uuid "1dffb919-8f97-49ed-a14d-8f977c5d83f8")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 107.95 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "700fe615-a163-4d5d-81f3-fbec1ee12711")
+		(property "Reference" "SW3"
+			(at 107.95 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60f99ae0-18c8-4c01-b789-8fa05acb0660")
+		)
+		(pin "1"
+			(uuid "1b3ab882-26e1-4a29-aee8-1cea19e91368")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 144.78 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73dd5eb2-8540-4782-9e7c-30f2efecc697")
+		(property "Reference" "D16"
+			(at 142.24 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 148.59 113.3474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 144.78 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 144.78 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 144.78 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68077dc5-cd97-4470-bc65-303b197a9dce")
+		)
+		(pin "2"
+			(uuid "3a6f4a40-1774-4f98-90b1-beb3d10c326d")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 144.78 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73fcaf21-c35a-4014-87e6-d29cfd6215b4")
+		(property "Reference" "D15"
+			(at 142.24 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 148.59 91.7574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17071d75-6f10-4aa6-a569-c123ca8fcefc")
+		)
+		(pin "2"
+			(uuid "f0988c12-c62c-471b-a255-4d0ed1c3ebeb")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 138.43 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74f1098f-1849-4b5b-8e57-f08731320d30")
+		(property "Reference" "D12"
+			(at 127.254 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 127.254 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 138.43 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e4e6712-c64f-4f21-8f52-f95524abd395")
+		)
+		(pin "1"
+			(uuid "0aa28b68-4a87-4769-ba75-6cf341f45bef")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77c9c1f4-096f-4b65-ae30-0286f4a07c3b")
+		(property "Reference" "#PWR055"
+			(at 120.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22fa1f65-1049-434b-b7b3-97eae4ae54f0")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 154.94 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c215a15-803b-4bd2-9f4a-756d49f42449")
+		(property "Reference" "SW8"
+			(at 154.94 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4a19065-f51c-497c-bb6d-04b983187fd7")
+		)
+		(pin "1"
+			(uuid "71d1b05e-e0d9-4d3d-a7da-8881807ebd18")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81bdf99a-bf73-4076-9b51-c102952f7048")
+		(property "Reference" "#PWR061"
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56d1c0aa-d9f4-449e-bc27-4b3b24768e2f")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83678ab4-ff29-45b0-a015-96046efd6818")
+		(property "Reference" "#PWR059"
+			(at 144.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9b387b1-211d-48df-89b9-bee856b09f2d")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8446c6a1-a5cd-491d-9ecd-76af2c086b89")
+		(property "Reference" "#PWR051"
+			(at 96.52 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "347f80d3-d7a0-4cfb-967f-42f311e172a8")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84e389ab-7488-4bf3-815f-96db3fcea341")
+		(property "Reference" "#PWR052"
+			(at 97.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1622206f-badb-4fc7-b8d6-52e32609aa4b")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 167.64 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87567565-3554-48dc-a306-093b62dcaac1")
+		(property "Reference" "R23"
+			(at 167.64 127.762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 169.926 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 165.862 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b360cbeb-8506-4ea9-88f4-d6062f66eb60")
+		)
+		(pin "1"
+			(uuid "20f56b03-75f3-44e8-8dac-f82651031e9d")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 191.77 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b0cdfef-d885-471e-832b-d7333cd06c00")
+		(property "Reference" "D33"
+			(at 189.23 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 195.58 136.2074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b0e2f56-dec9-4991-848f-f3a9e66b4895")
+		)
+		(pin "2"
+			(uuid "59addb3a-c0c3-489f-b525-d0e69742a99b")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 179.07 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ee28cbf-64b1-4879-82ae-951a3d942256")
+		(property "Reference" "SW12"
+			(at 179.07 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 179.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0eb02fd1-6b54-42b1-98a9-2b5861ea1241")
+		)
+		(pin "1"
+			(uuid "94b1d474-4b7c-4080-a5be-bf3793ca6dce")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8faee04d-edcb-4e96-bc31-7a5e62abf2bb")
+		(property "Reference" "#PWR065"
+			(at 191.77 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aec7431d-a917-4a68-98bd-39baede5f6be")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 161.29 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fbdc279-4139-4675-9dc3-5e2cc618968b")
+		(property "Reference" "D20"
+			(at 150.114 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 150.114 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 166.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 161.29 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96972f04-3c11-46d2-a44f-15c55ab78ba8")
+		)
+		(pin "1"
+			(uuid "9b878578-9ccc-4a72-914f-b973a7c0aef2")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 154.94 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "912f4479-4158-4533-b5c6-d24c226f3167")
+		(property "Reference" "SW7"
+			(at 154.94 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 154.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1aa5df9e-d912-4162-a675-04e1bb4ac6e5")
+		)
+		(pin "1"
+			(uuid "eb639c51-e2cb-4136-8ff0-c2d42084ae4e")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 107.95 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91a0ffe1-2106-4381-92a2-58c2b0f34d5d")
+		(property "Reference" "SW1"
+			(at 107.95 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 107.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 107.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69039d5f-6bd7-4b3a-96b8-67e54784b8a0")
+		)
+		(pin "1"
+			(uuid "7eab17a4-68f1-47d1-a3a4-e88fc485fbac")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 161.29 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9309b0ed-e7f2-475f-b1df-7da53b9f22e2")
+		(property "Reference" "D21"
+			(at 150.114 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 150.114 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 166.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 161.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 161.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 161.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 161.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 161.29 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b68838a-7edf-412b-9d62-4e2754601592")
+		)
+		(pin "1"
+			(uuid "87035818-ba63-467b-9432-8c727a6c28d3")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 144.78 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9366c3d5-cb2c-4539-b4e4-c99cdee1f245")
+		(property "Reference" "R18"
+			(at 144.78 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 147.066 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 143.002 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5fdf5d6-e936-46f4-a24a-18311db850b4")
+		)
+		(pin "1"
+			(uuid "469df0d6-8fb0-4494-9dee-3834a769c997")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 167.64 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94344275-2182-4eae-8edf-7ff739991a2e")
+		(property "Reference" "D22"
+			(at 165.1 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 171.45 70.1674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10fafa5b-a29a-4a9e-98e8-61672a844a4d")
+		)
+		(pin "2"
+			(uuid "ead526b4-0a66-48e6-a624-093a5debbcab")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 185.42 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99330c3b-e69d-4063-9a8e-581448948fc9")
+		(property "Reference" "D27"
+			(at 174.244 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 174.244 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 190.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 185.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 185.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 185.42 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d5a442b-2f36-4bff-a2e8-96b876ea63df")
+		)
+		(pin "1"
+			(uuid "1beab65c-999f-4328-ac2f-e2ca135940d4")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 167.64 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ac31c08-668a-48aa-9b36-ab4a4b8d9605")
+		(property "Reference" "R20"
+			(at 167.64 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 169.926 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 165.862 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ff0f5c9-4daf-4c32-956c-e49cd48cb1ab")
+		)
+		(pin "1"
+			(uuid "faafb67e-770f-495d-9d58-5a6bc61eb9e6")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 209.55 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b9dbc0e-8758-4c55-97ff-75c42506ae36")
+		(property "Reference" "D37"
+			(at 198.374 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 198.374 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 214.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 209.55 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5424846d-4025-4533-86ba-9c1f6da8e6f5")
+		)
+		(pin "1"
+			(uuid "3d855262-c017-4069-b06d-63641eafde63")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 120.65 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ffe92ee-2f18-483c-a7b0-38cd52ce8ff3")
+		(property "Reference" "R14"
+			(at 120.65 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 122.936 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 118.872 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9448cab-4d61-40ab-93b0-4e8861a54089")
+		)
+		(pin "1"
+			(uuid "8e69e748-0a9d-4f75-91b0-c45b3d5f05f3")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 144.78 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0622544-4d24-4a8a-afa7-482e954339eb")
+		(property "Reference" "R19"
+			(at 144.78 127.762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 147.066 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 143.002 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 144.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 144.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 144.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 144.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 144.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 144.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 144.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 144.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f85a48a-5235-4af7-98e2-83c6f0db784f")
+		)
+		(pin "1"
+			(uuid "9d2703b0-c5d9-4ef3-9d55-b45a6cbe8a87")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 120.65 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a65aa6f1-91de-4205-a18a-4b1d07f0e02e")
+		(property "Reference" "R15"
+			(at 120.65 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 122.936 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 118.872 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e16fe51-810a-45ba-be42-bd1bb3aa1d79")
+		)
+		(pin "1"
+			(uuid "e854b6b1-601f-4a86-b46a-ef70fe260956")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 120.65 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad1052a1-aa34-44f4-a859-3951a728ae73")
+		(property "Reference" "D10"
+			(at 118.11 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 124.46 113.3474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6bb8329-4d41-4554-9adf-ea9a2a83a288")
+		)
+		(pin "2"
+			(uuid "74c0c142-ef6b-4e65-b49c-c7621d3bd3d4")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5d36933-cbc4-4bdb-af0f-29f63d4267c7")
+		(property "Reference" "#PWR064"
+			(at 191.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f250dc1b-c025-4b9e-a002-25a59be08fbe")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 132.08 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7a3c503-817f-4bd6-a435-6f52488a7faf")
+		(property "Reference" "SW5"
+			(at 132.08 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 132.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 132.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bd3f586-a728-4d2c-af7b-cf6bd271d018")
+		)
+		(pin "1"
+			(uuid "dd309f03-343f-4f03-8e2e-930350d941c8")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba6d6a12-faa3-43d6-aa9f-d4276d9ba647")
+		(property "Reference" "#PWR050"
+			(at 96.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db4234e3-0341-43e4-b733-376fd653a5cc")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 191.77 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bee08513-3867-423f-8e02-0401b4765a18")
+		(property "Reference" "R25"
+			(at 191.77 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 194.056 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 189.992 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44b55f54-61c1-4b8f-86a0-1cbd54201357")
+		)
+		(pin "1"
+			(uuid "c5963b11-d528-4b34-a5bb-b3401e77d3ec")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 167.64 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf613930-7b53-4403-963c-8f9f54cff8e7")
+		(property "Reference" "D24"
+			(at 165.1 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 171.45 113.3474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a58b2a1-17aa-496b-8a4f-24c62ca9b3d9")
+		)
+		(pin "2"
+			(uuid "bb57a98d-262f-45e4-9960-e97e3e0e55e2")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0a74f3f-e15a-4b8a-9128-dc1a9db0e58f")
+		(property "Reference" "#PWR060"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7312c311-0136-4927-8e23-131f16638d82")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 132.08 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1c6efeb-f382-41fe-b5c5-371c26bddc45")
+		(property "Reference" "SW6"
+			(at 132.08 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 132.08 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a2dc366-9ee6-49e0-afb4-ab6150b6ef0f")
+		)
+		(pin "1"
+			(uuid "45326e88-f653-4158-8283-c1b7713ec1df")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 96.52 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3039ea9-4a73-4268-bab2-17f80189055a")
+		(property "Reference" "R10"
+			(at 96.52 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 98.806 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 94.742 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5e3f49c-9c58-439e-948d-17d9683e6329")
+		)
+		(pin "1"
+			(uuid "4e36411f-0304-426f-8d93-435512ebef01")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 114.3 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca88675c-c38b-42ec-a8a2-8059af30329d")
+		(property "Reference" "D6"
+			(at 103.124 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 103.124 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 114.3 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eefd428e-160e-4666-ac20-dd998ee163f7")
+		)
+		(pin "1"
+			(uuid "19151093-7946-4aee-8746-0955d978cf1d")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 209.55 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb0aafe5-9603-4493-bc10-c1aa8c9d1716")
+		(property "Reference" "D34"
+			(at 198.374 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 198.374 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 214.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 209.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 209.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 209.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 209.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 209.55 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a589db7-eb11-413e-bef5-91fd78675e14")
+		)
+		(pin "1"
+			(uuid "1e693d92-76b2-4fe0-9098-40b813ec9e69")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 144.78 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf57f007-6ebf-4e39-8249-c4fe8cc54621")
+		(property "Reference" "R16"
+			(at 144.78 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 147.066 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 143.002 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14802cd4-c813-4140-a676-e770f71b609d")
+		)
+		(pin "1"
+			(uuid "926d54af-3d81-42bc-a0f9-4cbb3698fc06")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 138.43 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfbe4b3a-2774-4cda-b993-18e04adeb917")
+		(property "Reference" "D13"
+			(at 127.254 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 127.254 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 143.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 138.43 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5343dfa4-2fce-477e-b05f-30c7078bb58c")
+		)
+		(pin "1"
+			(uuid "dfd885ae-fa75-4faf-80fb-3735a86e8227")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 144.78 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d00c7afe-e6f1-4925-8c09-7c5b3bd99741")
+		(property "Reference" "R17"
+			(at 144.78 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 147.066 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 143.002 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "980158b0-6751-469d-80f2-5f9159e50664")
+		)
+		(pin "1"
+			(uuid "527839d0-acc3-49a2-95c9-789c9ebff755")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d06fab3b-dcaa-4c38-8b0a-da0ce9b58e8c")
+		(property "Reference" "#PWR062"
+			(at 167.64 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6680b263-3109-4bcf-871d-6d8a6176ce33")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1c69ba9-0cfd-43eb-85e3-c3cc9fc1f62e")
+		(property "Reference" "#PWR053"
+			(at 120.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d2f63a3-bb51-4855-9293-f33e44c49e65")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 179.07 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2c4714b-c946-4dd9-9825-3cdc32c4ba7e")
+		(property "Reference" "SW13"
+			(at 179.07 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 179.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 179.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65ecd8c8-fcef-47f8-b1fd-fbda1dd6dbca")
+		)
+		(pin "1"
+			(uuid "23b775b9-981f-40b9-a20b-741e7721d835")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 96.52 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d86ea0a2-ab82-42ce-afae-ff15b1c3aadf")
+		(property "Reference" "D3"
+			(at 93.98 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 100.33 113.3474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 96.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 96.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 96.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47f35b70-fb02-46c7-8ce0-e3c5d3e27563")
+		)
+		(pin "2"
+			(uuid "7f262227-c8dd-413d-9e50-595a162e6b58")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 203.2 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc2d0932-e2a8-4498-bce8-cbd41c3031c8")
+		(property "Reference" "SW18"
+			(at 203.2 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 203.2 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05270d39-c53a-4b88-bf25-86c41ed273e5")
+		)
+		(pin "1"
+			(uuid "6073c89e-7428-47f3-87cc-0cf515195d39")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 107.95 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd5f9e87-d47c-4e03-9f89-4d6e7a86f756")
+		(property "Reference" "SW2"
+			(at 107.95 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 107.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 107.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7473175f-5e31-4207-b1c4-d66fb6413f9f")
+		)
+		(pin "1"
+			(uuid "24f28afc-8da2-4839-b046-3f87ff1015d1")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 114.3 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e29d2f14-da14-40b7-be44-21190ef47de8")
+		(property "Reference" "D5"
+			(at 103.124 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 103.124 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 119.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 114.3 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0a6f945-38ef-4e67-b332-a4ff34004667")
+		)
+		(pin "1"
+			(uuid "6558328a-4515-4e3d-b0d2-9f9ead8dcd8c")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 185.42 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed0a9678-5fb4-43b0-8216-0fb1137ef375")
+		(property "Reference" "D26"
+			(at 174.244 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 174.244 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 185.42 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51f3859c-0923-44cc-a38f-d83080e79954")
+		)
+		(pin "1"
+			(uuid "d517fd10-16f4-4aea-aadc-4085d48c93cd")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#inventree:RC0603FR-071KL")
+		(at 191.77 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f28147f4-b8d8-4434-956f-6a0a1943247f")
+		(property "Reference" "R26"
+			(at 191.77 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kohm"
+			(at 194.056 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 189.992 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://10.0.0.41/media/attachments/part/69/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "69"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting Type" "0603"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package Type" "0603 (1608 Metric)"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "http://10.0.0.41:7333/part/69/"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "0.1W, 1/10W"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d6da303-7e22-4b3c-bcd4-d3a45c7dced4")
+		)
+		(pin "1"
+			(uuid "6a36294b-b961-457c-9f31-d1dad8d06664")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f38488ec-2771-4bc0-8a62-e025fe316279")
+		(property "Reference" "#PWR063"
+			(at 167.64 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95187119-1a85-4ad4-bfc0-ac4293b1c92e")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 96.52 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe71f522-0368-485f-aea6-f9f05bfc7f62")
+		(property "Reference" "D2"
+			(at 93.98 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 100.33 91.7574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 96.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 96.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "67"
+			(at 96.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02b1abf4-c8e1-46ff-88ff-8675c9cb8dad")
+		)
+		(pin "2"
+			(uuid "22475674-73a6-469a-a5a7-b2f045afcf2c")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 203.2 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fee71fd9-6f3f-4051-9560-494039144759")
+		(property "Reference" "SW17"
+			(at 203.2 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "personal:Gateron_Milky_Yellow"
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 203.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5a62b4d-2add-415b-9eb1-2277411bf071")
+		)
+		(pin "1"
+			(uuid "7d052d5f-acfa-4158-87ad-fed5a0d2eb7a")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:CD4148W")
+		(at 114.3 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fff3b3e7-1827-4ba7-90b6-c3a5ca69d605")
+		(property "Reference" "D7"
+			(at 103.124 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CD4148W"
+			(at 103.124 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 119.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291616_LIZ-Elec-CD4148WSP_C109001.pdf"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Switching Diode, 0805"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "InvenTree" "64"
+			(at 114.3 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d274cf4f-b643-4dea-9bb8-e883050dbe48")
+		)
+		(pin "1"
+			(uuid "ac46b493-2bea-445e-8eab-a62db065b9f4")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
