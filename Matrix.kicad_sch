@@ -441,7 +441,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:WS2812B"
+		(symbol "LED:SK6805"
 			(pin_names
 				(offset 0.254)
 			)
@@ -457,7 +457,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "WS2812B"
+			(property "Value" "SK6805"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -466,7 +466,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(property "Footprint" "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -476,7 +476,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -495,7 +495,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
+			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -504,7 +504,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+			(property "ki_fp_filters" "LED*SK6805*PLCC*2.4x2.7mm*P1.3mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -513,7 +513,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "WS2812B_0_0"
+			(symbol "SK6805_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -523,7 +523,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B_0_1"
+			(symbol "SK6805_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -620,7 +620,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B_1_1"
+			(symbol "SK6805_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -631,7 +631,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -649,7 +649,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -667,7 +667,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -685,7 +685,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1375,12 +1375,6 @@
 		(uuid "40568034-680e-4421-9fe9-ba50e1c20f53")
 	)
 	(junction
-		(at 106.68 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "411eb99f-dca1-41ef-9f74-78f580a12267")
-	)
-	(junction
 		(at 237.49 86.36)
 		(diameter 0)
 		(color 132 0 132 1)
@@ -1427,12 +1421,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66bdec69-1f3a-455b-b9a0-1dc4ab48a022")
-	)
-	(junction
-		(at 106.68 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ad0cfc9-da1e-4ebc-9c71-7831409af265")
 	)
 	(junction
 		(at 224.79 133.35)
@@ -1489,6 +1477,12 @@
 		(uuid "878e152b-11a2-4911-835a-a0328948a31a")
 	)
 	(junction
+		(at 106.68 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "977befd3-51e2-4641-974f-64f9a6e02f14")
+	)
+	(junction
 		(at 48.26 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1543,12 +1537,6 @@
 		(uuid "c90c8a35-10d4-4d22-86c5-9c7e3d548d08")
 	)
 	(junction
-		(at 193.04 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca252931-b934-456e-891b-1429970ad916")
-	)
-	(junction
 		(at 106.68 55.88)
 		(diameter 0)
 		(color 132 0 132 1)
@@ -1591,12 +1579,6 @@
 		(uuid "dea970c1-40ac-47b1-be66-762ecc372810")
 	)
 	(junction
-		(at 149.86 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0d32511-e9bc-402d-bab7-57b99b1c1b5a")
-	)
-	(junction
 		(at 237.49 55.88)
 		(diameter 0)
 		(color 132 0 132 1)
@@ -1609,22 +1591,10 @@
 		(uuid "e8bb1efb-0db4-4693-8945-19ef1656382c")
 	)
 	(junction
-		(at 60.96 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eaf336ff-de41-442e-a644-389f019b7c59")
-	)
-	(junction
 		(at 93.98 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec76d16f-670b-40eb-8754-2ac2add61f19")
-	)
-	(junction
-		(at 237.49 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2d75941-576a-4d57-9ab0-20c2c57960e1")
 	)
 	(junction
 		(at 193.04 86.36)
@@ -1686,16 +1656,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 64.77) (xy 161.29 64.77)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "0729c96e-7fe1-4809-aade-9ba1369b139d")
-	)
-	(wire
-		(pts
 			(xy 160.02 55.88) (xy 161.29 55.88)
 		)
 		(stroke
@@ -1713,16 +1673,6 @@
 			(type default)
 		)
 		(uuid "0b1bc778-caec-41f0-b541-9b2515f43e33")
-	)
-	(wire
-		(pts
-			(xy 60.96 64.77) (xy 72.39 64.77)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "0c8be9b0-3f1d-4ecf-bbc5-091fb5d4f34e")
 	)
 	(wire
 		(pts
@@ -1807,6 +1757,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 118.11) (xy 118.11 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17db2ea6-2a33-4a6b-b0f4-9e590728a539")
+	)
+	(wire
+		(pts
 			(xy 118.11 156.21) (xy 161.29 156.21)
 		)
 		(stroke
@@ -1827,7 +1787,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 64.77) (xy 60.96 86.36)
+			(xy 60.96 55.88) (xy 60.96 86.36)
 		)
 		(stroke
 			(width 0.254)
@@ -1875,17 +1835,6 @@
 			(type default)
 		)
 		(uuid "1fec5856-d9ae-48f9-86b2-950def4d745c")
-	)
-	(wire
-		(pts
-			(xy 149.86 64.77) (xy 149.86 55.88)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 132 0 132 1)
-		)
-		(uuid "2137844b-f331-466a-a045-6d95b69ded58")
 	)
 	(wire
 		(pts
@@ -1969,16 +1918,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 64.77) (xy 248.92 64.77)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "2c5b23de-32fc-44e9-811b-e94711dbf101")
-	)
-	(wire
-		(pts
 			(xy 204.47 116.84) (xy 204.47 118.11)
 		)
 		(stroke
@@ -1996,17 +1935,6 @@
 			(type default)
 		)
 		(uuid "2fc5d101-f26e-45ad-a1a1-1f8be7c47fc3")
-	)
-	(wire
-		(pts
-			(xy 237.49 64.77) (xy 237.49 86.36)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 132 0 132 1)
-		)
-		(uuid "324d6b27-989b-4312-a600-1eb1847523e3")
 	)
 	(wire
 		(pts
@@ -2040,7 +1968,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 64.77) (xy 106.68 86.36)
+			(xy 106.68 55.88) (xy 106.68 86.36)
 		)
 		(stroke
 			(width 0.254)
@@ -2133,7 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 116.84) (xy 118.11 118.11)
+			(xy 116.84 116.84) (xy 116.84 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2244,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 64.77) (xy 106.68 64.77)
+			(xy 72.39 64.77) (xy 118.11 64.77)
 		)
 		(stroke
 			(width 0.254)
@@ -2271,16 +2199,6 @@
 			(type default)
 		)
 		(uuid "6c9bfa5a-6031-48dc-b70c-dbaa17a7653a")
-	)
-	(wire
-		(pts
-			(xy 116.84 116.84) (xy 118.11 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ce89710-d23a-48fc-b084-70930693c242")
 	)
 	(wire
 		(pts
@@ -2355,16 +2273,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 64.77) (xy 204.47 64.77)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "7e2c5e70-b8eb-4802-b147-466b0ee67d6b")
-	)
-	(wire
-		(pts
 			(xy 116.84 147.32) (xy 118.11 147.32)
 		)
 		(stroke
@@ -2372,17 +2280,6 @@
 			(type default)
 		)
 		(uuid "7ecb9428-5950-4727-a6a0-3449cb2d764c")
-	)
-	(wire
-		(pts
-			(xy 106.68 86.36) (xy 106.68 116.84)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 132 0 132 1)
-		)
-		(uuid "7f3433b6-9093-43b8-9968-bc1122f9a6d8")
 	)
 	(wire
 		(pts
@@ -2436,17 +2333,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 64.77) (xy 106.68 55.88)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 132 0 132 1)
-		)
-		(uuid "88079f40-8cb4-4443-85ec-c421d9d634a5")
-	)
-	(wire
-		(pts
 			(xy 72.39 55.88) (xy 72.39 57.15)
 		)
 		(stroke
@@ -2457,7 +2343,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 116.84) (xy 106.68 147.32)
+			(xy 106.68 86.36) (xy 106.68 116.84)
 		)
 		(stroke
 			(width 0.254)
@@ -2678,17 +2564,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 64.77) (xy 193.04 86.36)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 132 0 132 1)
-		)
-		(uuid "a8cd07ad-44d7-4907-89a6-af9810e39b3f")
-	)
-	(wire
-		(pts
 			(xy 72.39 95.25) (xy 118.11 95.25)
 		)
 		(stroke
@@ -2719,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 64.77) (xy 237.49 64.77)
+			(xy 204.47 64.77) (xy 248.92 64.77)
 		)
 		(stroke
 			(width 0.254)
@@ -2729,7 +2604,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 64.77) (xy 237.49 55.88)
+			(xy 237.49 55.88) (xy 237.49 86.36)
 		)
 		(stroke
 			(width 0.254)
@@ -2801,7 +2676,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 64.77) (xy 149.86 86.36)
+			(xy 149.86 55.88) (xy 149.86 86.36)
 		)
 		(stroke
 			(width 0.254)
@@ -2842,7 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 64.77) (xy 193.04 55.88)
+			(xy 193.04 55.88) (xy 193.04 86.36)
 		)
 		(stroke
 			(width 0.254)
@@ -2925,7 +2800,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 64.77) (xy 193.04 64.77)
+			(xy 161.29 64.77) (xy 204.47 64.77)
 		)
 		(stroke
 			(width 0.254)
@@ -2986,16 +2861,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 64.77) (xy 118.11 64.77)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "dc44e87b-12ac-4d3a-abe3-aec0d47643f8")
-	)
-	(wire
-		(pts
 			(xy 71.12 86.36) (xy 72.39 86.36)
 		)
 		(stroke
@@ -3017,6 +2882,17 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 116.84) (xy 106.68 147.32)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "de4ec7f9-b0dd-4a71-86a2-d93c69c7e933")
+	)
+	(wire
+		(pts
 			(xy 101.6 142.24) (xy 129.54 142.24)
 		)
 		(stroke
@@ -3027,7 +2903,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 64.77) (xy 60.96 64.77)
+			(xy 27.94 64.77) (xy 72.39 64.77)
 		)
 		(stroke
 			(width 0.254)
@@ -3037,7 +2913,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 64.77) (xy 149.86 64.77)
+			(xy 118.11 64.77) (xy 161.29 64.77)
 		)
 		(stroke
 			(width 0.254)
@@ -3166,17 +3042,6 @@
 			(type default)
 		)
 		(uuid "fc7b43ca-1c01-4e0f-9054-2aca7885b9f7")
-	)
-	(wire
-		(pts
-			(xy 60.96 64.77) (xy 60.96 55.88)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 132 0 132 1)
-		)
-		(uuid "fcb0924e-b984-4081-9386-096c60ad7d71")
 	)
 	(wire
 		(pts
@@ -3340,7 +3205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "035ca9b9-2e74-422a-a296-35bfd7de6c19")
-		(property "Reference" "D35"
+		(property "Reference" "D210"
 			(at 237.744 90.424 90)
 			(effects
 				(font
@@ -3421,7 +3286,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D35")
+					(reference "D210")
 					(unit 1)
 				)
 			)
@@ -3436,7 +3301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "038f3790-6c65-4b08-8ef7-c6b84294fa16")
-		(property "Reference" "D11"
+		(property "Reference" "D202"
 			(at 106.934 59.944 90)
 			(effects
 				(font
@@ -3517,7 +3382,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D11")
+					(reference "D202")
 					(unit 1)
 				)
 			)
@@ -3533,7 +3398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "096db9f6-983d-48d1-a0f7-efe2fd3a6041")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0225"
 			(at 210.82 71.12 0)
 			(effects
 				(font
@@ -3584,7 +3449,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR073")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -3599,7 +3464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09846464-ef6a-4be8-b108-f44d54245858")
-		(property "Reference" "SW15"
+		(property "Reference" "SW205"
 			(at 242.57 57.404 0)
 			(effects
 				(font
@@ -3616,7 +3481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 242.57 50.8 0)
 			(effects
 				(font
@@ -3652,7 +3517,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW15")
+					(reference "SW205")
 					(unit 1)
 				)
 			)
@@ -3667,7 +3532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0aa3e113-bb3e-4ad2-9477-a173a83309aa")
-		(property "Reference" "D18"
+		(property "Reference" "D203"
 			(at 150.114 59.944 90)
 			(effects
 				(font
@@ -3748,7 +3613,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D18")
+					(reference "D203")
 					(unit 1)
 				)
 			)
@@ -3764,7 +3629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bdd73cf-c953-4a79-9a7b-b16d1ed5af9d")
-		(property "Reference" "R10"
+		(property "Reference" "R201"
 			(at 30.48 43.18 90)
 			(effects
 				(font
@@ -3816,7 +3681,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "R10")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -3832,7 +3697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e258128-6bec-4fc5-b12b-035fd52d9a00")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0205"
 			(at 224.79 43.18 0)
 			(effects
 				(font
@@ -3882,7 +3747,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR064")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -3898,7 +3763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fcf9340-b88f-4d29-91ad-b558259c5a1a")
-		(property "Reference" "R12"
+		(property "Reference" "R203"
 			(at 30.48 104.14 90)
 			(effects
 				(font
@@ -3950,14 +3815,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "R12")
+					(reference "R203")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 93.98 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3965,7 +3830,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1095f003-8e43-4311-902e-f0fdeb780619")
-		(property "Reference" "D25"
+		(property "Reference" "D262"
 			(at 98.044 103.886 0)
 			(effects
 				(font
@@ -3973,7 +3838,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 86.868 117.094 0)
 			(effects
 				(font
@@ -3981,7 +3846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 95.25 118.11 0)
 			(effects
 				(font
@@ -4010,7 +3875,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 93.98 110.49 0)
 			(effects
 				(font
@@ -4019,7 +3884,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 93.98 110.49 0)
 			(effects
 				(font
@@ -4043,7 +3908,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D25")
+					(reference "D262")
 					(unit 1)
 				)
 			)
@@ -4059,7 +3924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "118cc054-22eb-4465-8f2f-1e7a9ae3e7bc")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR0250"
 			(at 80.01 133.35 0)
 			(effects
 				(font
@@ -4110,7 +3975,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR087")
+					(reference "#PWR0250")
 					(unit 1)
 				)
 			)
@@ -4126,7 +3991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13923efa-e735-4ae1-bf5a-5103faa51742")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR0236"
 			(at 34.29 101.6 0)
 			(effects
 				(font
@@ -4177,7 +4042,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR075")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -4193,7 +4058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1575c324-3099-4f2b-b21d-c3e22d313140")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR0228"
 			(at 137.16 93.98 0)
 			(effects
 				(font
@@ -4244,14 +4109,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR045")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 137.16 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4259,7 +4124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "178e9cfc-facd-47e4-a593-3bfe7ebdcc20")
-		(property "Reference" "D9"
+		(property "Reference" "D253"
 			(at 141.224 42.926 0)
 			(effects
 				(font
@@ -4267,7 +4132,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 130.048 56.134 0)
 			(effects
 				(font
@@ -4275,7 +4140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 138.43 57.15 0)
 			(effects
 				(font
@@ -4304,7 +4169,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 137.16 49.53 0)
 			(effects
 				(font
@@ -4313,7 +4178,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 137.16 49.53 0)
 			(effects
 				(font
@@ -4337,7 +4202,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D9")
+					(reference "D253")
 					(unit 1)
 				)
 			)
@@ -4353,7 +4218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1875f42b-2fb9-4805-bb6a-0e59374d0e2a")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0218"
 			(at 137.16 73.66 0)
 			(effects
 				(font
@@ -4403,7 +4268,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR070")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -4419,7 +4284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18efb0f8-c419-43c5-8a11-ca21e3a0c828")
-		(property "Reference" "C14"
+		(property "Reference" "C208"
 			(at 133.35 63.5 90)
 			(effects
 				(font
@@ -4471,7 +4336,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C14")
+					(reference "C208")
 					(unit 1)
 				)
 			)
@@ -4487,7 +4352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bf26722-7638-4dc7-b632-e6efb7c2c89f")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0257"
 			(at 224.79 156.21 0)
 			(effects
 				(font
@@ -4538,7 +4403,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR057")
+					(reference "#PWR0257")
 					(unit 1)
 				)
 			)
@@ -4554,7 +4419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f5f2715-a86a-43ae-ade5-ad210c6080bf")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR0229"
 			(at 180.34 93.98 0)
 			(effects
 				(font
@@ -4605,14 +4470,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR046")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 137.16 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4620,7 +4485,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "217a8a10-bd0d-4da5-a716-4397e9cb9a51")
-		(property "Reference" "D45"
+		(property "Reference" "D267"
 			(at 141.224 135.636 0)
 			(effects
 				(font
@@ -4628,7 +4493,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 130.048 148.844 0)
 			(effects
 				(font
@@ -4636,7 +4501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 138.43 149.86 0)
 			(effects
 				(font
@@ -4665,7 +4530,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 137.16 142.24 0)
 			(effects
 				(font
@@ -4674,7 +4539,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 137.16 142.24 0)
 			(effects
 				(font
@@ -4698,14 +4563,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D45")
+					(reference "D267")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 137.16 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4713,7 +4578,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23da1bbe-09fc-4ea3-be28-e6ccd6994a93")
-		(property "Reference" "D30"
+		(property "Reference" "D263"
 			(at 141.224 103.886 0)
 			(effects
 				(font
@@ -4721,7 +4586,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 130.048 117.094 0)
 			(effects
 				(font
@@ -4729,7 +4594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 138.43 118.11 0)
 			(effects
 				(font
@@ -4758,7 +4623,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 137.16 110.49 0)
 			(effects
 				(font
@@ -4767,7 +4632,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 137.16 110.49 0)
 			(effects
 				(font
@@ -4791,7 +4656,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D30")
+					(reference "D263")
 					(unit 1)
 				)
 			)
@@ -4807,7 +4672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "284c30c4-36ec-4df1-a570-0cb6ca85fb44")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR0243"
 			(at 137.16 124.46 0)
 			(effects
 				(font
@@ -4858,7 +4723,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR050")
+					(reference "#PWR0243")
 					(unit 1)
 				)
 			)
@@ -4873,7 +4738,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ca9b0d1-497f-48e1-bcc1-a8e96eba220b")
-		(property "Reference" "SW4"
+		(property "Reference" "SW202"
 			(at 111.506 57.404 0)
 			(effects
 				(font
@@ -4890,7 +4755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 111.76 50.8 0)
 			(effects
 				(font
@@ -4926,14 +4791,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW4")
+					(reference "SW202")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 48.26 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4941,7 +4806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ea52604-eaa7-432b-8e7c-ff199849e089")
-		(property "Reference" "D24"
+		(property "Reference" "D261"
 			(at 52.324 103.886 0)
 			(effects
 				(font
@@ -4949,7 +4814,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 41.148 117.094 0)
 			(effects
 				(font
@@ -4957,7 +4822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 49.53 118.11 0)
 			(effects
 				(font
@@ -4986,7 +4851,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 48.26 110.49 0)
 			(effects
 				(font
@@ -4995,7 +4860,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 48.26 110.49 0)
 			(effects
 				(font
@@ -5019,7 +4884,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D24")
+					(reference "D261")
 					(unit 1)
 				)
 			)
@@ -5034,7 +4899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f801d13-508a-4a3f-8c06-e5ef6fac3ed0")
-		(property "Reference" "D29"
+		(property "Reference" "D218"
 			(at 193.294 151.384 90)
 			(effects
 				(font
@@ -5115,7 +4980,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D29")
+					(reference "D218")
 					(unit 1)
 				)
 			)
@@ -5130,7 +4995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30351521-5c52-4647-9151-021e560e8e3f")
-		(property "Reference" "SW10"
+		(property "Reference" "SW217"
 			(at 154.94 149.352 0)
 			(effects
 				(font
@@ -5147,7 +5012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 154.94 142.24 0)
 			(effects
 				(font
@@ -5183,14 +5048,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW10")
+					(reference "SW217")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 180.34 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5198,7 +5063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32fc05ca-3fd6-472d-a642-d60154401924")
-		(property "Reference" "D10"
+		(property "Reference" "D254"
 			(at 184.404 42.926 0)
 			(effects
 				(font
@@ -5206,7 +5071,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 173.228 56.134 0)
 			(effects
 				(font
@@ -5214,7 +5079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 181.61 57.15 0)
 			(effects
 				(font
@@ -5243,7 +5108,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 180.34 49.53 0)
 			(effects
 				(font
@@ -5252,7 +5117,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 180.34 49.53 0)
 			(effects
 				(font
@@ -5276,7 +5141,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D10")
+					(reference "D254")
 					(unit 1)
 				)
 			)
@@ -5292,7 +5157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "339e7262-e781-45d0-80b5-bdf0b63ab70d")
-		(property "Reference" "R11"
+		(property "Reference" "R202"
 			(at 30.48 73.66 90)
 			(effects
 				(font
@@ -5344,7 +5209,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "R11")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -5359,7 +5224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33ca1518-0989-42e4-ad7d-19d7959e234d")
-		(property "Reference" "SW16"
+		(property "Reference" "SW210"
 			(at 242.57 88.138 0)
 			(effects
 				(font
@@ -5376,7 +5241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 242.57 81.28 0)
 			(effects
 				(font
@@ -5412,7 +5277,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW16")
+					(reference "SW210")
 					(unit 1)
 				)
 			)
@@ -5427,7 +5292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37965e4c-f688-49fa-a672-06d47f1faa9e")
-		(property "Reference" "SW14"
+		(property "Reference" "SW218"
 			(at 198.12 149.098 0)
 			(effects
 				(font
@@ -5444,7 +5309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 198.12 142.24 0)
 			(effects
 				(font
@@ -5480,7 +5345,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW14")
+					(reference "SW218")
 					(unit 1)
 				)
 			)
@@ -5496,7 +5361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3834a513-54cf-4b61-b272-e2d4f019eba7")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0226"
 			(at 48.26 93.98 0)
 			(effects
 				(font
@@ -5547,7 +5412,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR043")
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -5563,7 +5428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a7aac5c-27b1-4661-a0b8-cdfb10d3ffa8")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR0241"
 			(at 48.26 124.46 0)
 			(effects
 				(font
@@ -5614,7 +5479,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR048")
+					(reference "#PWR0241")
 					(unit 1)
 				)
 			)
@@ -5630,7 +5495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3af2c396-8e17-4273-a328-96c5dd62a759")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR0233"
 			(at 137.16 104.14 0)
 			(effects
 				(font
@@ -5680,7 +5545,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR080")
+					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
@@ -5696,7 +5561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4145b538-6f6b-402e-b7c6-e4b1d47bbfb9")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR0221"
 			(at 34.29 71.12 0)
 			(effects
 				(font
@@ -5747,7 +5612,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR065")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -5763,7 +5628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41b698b2-b124-4139-9284-8902dcec51ee")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR0210"
 			(at 210.82 40.64 0)
 			(effects
 				(font
@@ -5814,7 +5679,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR063")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -5830,7 +5695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "426b95b3-59f1-4d2c-b07e-90c468e3d0a1")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR0240"
 			(at 210.82 101.6 0)
 			(effects
 				(font
@@ -5881,7 +5746,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR083")
+					(reference "#PWR0240")
 					(unit 1)
 				)
 			)
@@ -5897,7 +5762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "439b5df1-f307-4a5f-8a6b-31a8943fcd35")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR0256"
 			(at 180.34 156.21 0)
 			(effects
 				(font
@@ -5948,7 +5813,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR056")
+					(reference "#PWR0256")
 					(unit 1)
 				)
 			)
@@ -5963,7 +5828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "448c0347-6595-41e2-ae94-45ca93d75c15")
-		(property "Reference" "SW9"
+		(property "Reference" "SW213"
 			(at 154.94 118.618 0)
 			(effects
 				(font
@@ -5980,7 +5845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 154.94 111.76 0)
 			(effects
 				(font
@@ -6016,14 +5881,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW9")
+					(reference "SW213")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 93.98 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6031,7 +5896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44e3b565-9b0d-41d7-baf1-68b31dd2f079")
-		(property "Reference" "D8"
+		(property "Reference" "D252"
 			(at 98.044 42.926 0)
 			(effects
 				(font
@@ -6039,7 +5904,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 86.868 56.134 0)
 			(effects
 				(font
@@ -6047,7 +5912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 95.25 57.15 0)
 			(effects
 				(font
@@ -6076,7 +5941,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 93.98 49.53 0)
 			(effects
 				(font
@@ -6085,7 +5950,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 93.98 49.53 0)
 			(effects
 				(font
@@ -6109,7 +5974,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D8")
+					(reference "D252")
 					(unit 1)
 				)
 			)
@@ -6125,7 +5990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "456c6fab-dfe4-40a9-afd2-0d1ce92d4b9e")
-		(property "Reference" "C7"
+		(property "Reference" "C201"
 			(at 44.45 33.02 90)
 			(effects
 				(font
@@ -6177,7 +6042,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C7")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -6193,7 +6058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45ed0862-d634-4532-9003-e08a92e3f38f")
-		(property "Reference" "C20"
+		(property "Reference" "C214"
 			(at 176.53 93.98 90)
 			(effects
 				(font
@@ -6245,7 +6110,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C20")
+					(reference "C214")
 					(unit 1)
 				)
 			)
@@ -6261,7 +6126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4db92595-9b42-40c4-8d59-4c56a0119521")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0211"
 			(at 48.26 63.5 0)
 			(effects
 				(font
@@ -6312,14 +6177,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR038")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 93.98 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6327,7 +6192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e8f8a56-bac3-42e3-85d5-2eb5381e894b")
-		(property "Reference" "D16"
+		(property "Reference" "D257"
 			(at 98.044 73.406 0)
 			(effects
 				(font
@@ -6335,7 +6200,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 86.868 86.614 0)
 			(effects
 				(font
@@ -6343,7 +6208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 95.25 87.63 0)
 			(effects
 				(font
@@ -6372,7 +6237,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 93.98 80.01 0)
 			(effects
 				(font
@@ -6381,7 +6246,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 93.98 80.01 0)
 			(effects
 				(font
@@ -6405,7 +6270,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D16")
+					(reference "D257")
 					(unit 1)
 				)
 			)
@@ -6421,7 +6286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57b4996d-feb6-4382-89ca-cb83ac18a6ea")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR0242"
 			(at 93.98 124.46 0)
 			(effects
 				(font
@@ -6472,14 +6337,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR049")
+					(reference "#PWR0242")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 224.79 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6487,7 +6352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58ecc650-a45b-4a79-8f12-7f9d6e44d10b")
-		(property "Reference" "D32"
+		(property "Reference" "D265"
 			(at 228.854 103.886 0)
 			(effects
 				(font
@@ -6495,7 +6360,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 217.678 117.094 0)
 			(effects
 				(font
@@ -6503,7 +6368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 226.06 118.11 0)
 			(effects
 				(font
@@ -6532,7 +6397,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 224.79 110.49 0)
 			(effects
 				(font
@@ -6541,7 +6406,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 224.79 110.49 0)
 			(effects
 				(font
@@ -6565,7 +6430,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D32")
+					(reference "D265")
 					(unit 1)
 				)
 			)
@@ -6581,7 +6446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d6fe189-c809-47ff-8737-f898f4f1d9d4")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0214"
 			(at 180.34 63.5 0)
 			(effects
 				(font
@@ -6632,7 +6497,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR041")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -6647,7 +6512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5faba3bc-564f-401a-9265-839648bdc699")
-		(property "Reference" "D36"
+		(property "Reference" "D215"
 			(at 237.744 120.904 90)
 			(effects
 				(font
@@ -6728,7 +6593,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D36")
+					(reference "D215")
 					(unit 1)
 				)
 			)
@@ -6743,7 +6608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "617e4dea-b5a2-48d7-8700-67480ac6ba6b")
-		(property "Reference" "D28"
+		(property "Reference" "D214"
 			(at 193.294 120.904 90)
 			(effects
 				(font
@@ -6824,7 +6689,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D28")
+					(reference "D214")
 					(unit 1)
 				)
 			)
@@ -6840,7 +6705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64c6886b-77ea-4296-a55b-cdbfd4770eb7")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0206"
 			(at 34.29 40.64 0)
 			(effects
 				(font
@@ -6891,14 +6756,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR037")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 224.79 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6906,7 +6771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69eed582-1060-4b69-ad04-d13f30e78920")
-		(property "Reference" "D23"
+		(property "Reference" "D260"
 			(at 228.854 73.406 0)
 			(effects
 				(font
@@ -6914,7 +6779,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 217.678 86.614 0)
 			(effects
 				(font
@@ -6922,7 +6787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 226.06 87.63 0)
 			(effects
 				(font
@@ -6951,7 +6816,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 224.79 80.01 0)
 			(effects
 				(font
@@ -6960,7 +6825,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 224.79 80.01 0)
 			(effects
 				(font
@@ -6984,7 +6849,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D23")
+					(reference "D260")
 					(unit 1)
 				)
 			)
@@ -6999,7 +6864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b9d3c30-a40f-44d1-ba96-35e391deefb5")
-		(property "Reference" "D19"
+		(property "Reference" "D208"
 			(at 150.114 90.424 90)
 			(effects
 				(font
@@ -7080,7 +6945,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D19")
+					(reference "D208")
 					(unit 1)
 				)
 			)
@@ -7096,7 +6961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e046d43-0de5-4a29-9a53-49e4d545cfc9")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR0220"
 			(at 224.79 73.66 0)
 			(effects
 				(font
@@ -7146,7 +7011,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR074")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -7162,7 +7027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6efb86e2-96ce-48a7-b063-2430781586df")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0248"
 			(at 180.34 135.89 0)
 			(effects
 				(font
@@ -7212,7 +7077,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR092")
+					(reference "#PWR0248")
 					(unit 1)
 				)
 			)
@@ -7227,7 +7092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fd01314-5cf1-4c3e-9dd0-93426483220f")
-		(property "Reference" "SW11"
+		(property "Reference" "SW204"
 			(at 198.12 57.404 0)
 			(effects
 				(font
@@ -7244,7 +7109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 198.12 50.8 0)
 			(effects
 				(font
@@ -7280,7 +7145,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW11")
+					(reference "SW204")
 					(unit 1)
 				)
 			)
@@ -7295,7 +7160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "700fe615-a163-4d5d-81f3-fbec1ee12711")
-		(property "Reference" "SW3"
+		(property "Reference" "SW211"
 			(at 66.04 118.618 0)
 			(effects
 				(font
@@ -7312,7 +7177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 66.04 111.76 0)
 			(effects
 				(font
@@ -7348,7 +7213,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW3")
+					(reference "SW211")
 					(unit 1)
 				)
 			)
@@ -7364,7 +7229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "727ddc22-27b4-4b6a-bcb3-0bbd80c637cc")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0216"
 			(at 48.26 73.66 0)
 			(effects
 				(font
@@ -7414,7 +7279,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR066")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -7429,7 +7294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74f1098f-1849-4b5b-8e57-f08731320d30")
-		(property "Reference" "D12"
+		(property "Reference" "D207"
 			(at 106.934 90.424 90)
 			(effects
 				(font
@@ -7510,7 +7375,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D12")
+					(reference "D207")
 					(unit 1)
 				)
 			)
@@ -7526,7 +7391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76319574-41e3-4ca9-8a7d-d9b256648520")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR0244"
 			(at 180.34 124.46 0)
 			(effects
 				(font
@@ -7577,7 +7442,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR051")
+					(reference "#PWR0244")
 					(unit 1)
 				)
 			)
@@ -7593,7 +7458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78c54deb-0958-4576-bdf5-d5fad39d2635")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR0203"
 			(at 137.16 43.18 0)
 			(effects
 				(font
@@ -7643,7 +7508,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR060")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -7659,7 +7524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a0646bf-b053-40af-ad83-a7218219ebd6")
-		(property "Reference" "C13"
+		(property "Reference" "C207"
 			(at 90.17 63.5 90)
 			(effects
 				(font
@@ -7711,7 +7576,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C13")
+					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -7726,7 +7591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c215a15-803b-4bd2-9f4a-756d49f42449")
-		(property "Reference" "SW8"
+		(property "Reference" "SW208"
 			(at 154.94 88.138 0)
 			(effects
 				(font
@@ -7743,7 +7608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 154.94 81.28 0)
 			(effects
 				(font
@@ -7779,14 +7644,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW8")
+					(reference "SW208")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 48.26 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7794,7 +7659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7de5005e-ec0d-487c-97cb-f17ace8eeec4")
-		(property "Reference" "D15"
+		(property "Reference" "D256"
 			(at 52.324 73.406 0)
 			(effects
 				(font
@@ -7802,7 +7667,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 41.148 86.614 0)
 			(effects
 				(font
@@ -7810,7 +7675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 49.53 87.63 0)
 			(effects
 				(font
@@ -7839,7 +7704,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 48.26 80.01 0)
 			(effects
 				(font
@@ -7848,7 +7713,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 48.26 80.01 0)
 			(effects
 				(font
@@ -7872,14 +7737,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D15")
+					(reference "D256")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 180.34 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7887,7 +7752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8227824f-2d95-4773-96a1-dfe9282cb0be")
-		(property "Reference" "D22"
+		(property "Reference" "D259"
 			(at 184.404 73.406 0)
 			(effects
 				(font
@@ -7895,7 +7760,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 173.228 86.614 0)
 			(effects
 				(font
@@ -7903,7 +7768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 181.61 87.63 0)
 			(effects
 				(font
@@ -7932,7 +7797,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 180.34 80.01 0)
 			(effects
 				(font
@@ -7941,7 +7806,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 180.34 80.01 0)
 			(effects
 				(font
@@ -7965,14 +7830,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D22")
+					(reference "D259")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 137.16 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7980,7 +7845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8493cede-0400-4faa-be52-d3f551f78202")
-		(property "Reference" "D17"
+		(property "Reference" "D258"
 			(at 141.224 73.406 0)
 			(effects
 				(font
@@ -7988,7 +7853,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 130.048 86.614 0)
 			(effects
 				(font
@@ -7996,7 +7861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 138.43 87.63 0)
 			(effects
 				(font
@@ -8025,7 +7890,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 137.16 80.01 0)
 			(effects
 				(font
@@ -8034,7 +7899,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 137.16 80.01 0)
 			(effects
 				(font
@@ -8058,14 +7923,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D17")
+					(reference "D258")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 224.79 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8073,7 +7938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86aad1dd-e576-4c29-9d45-fffe79fd9453")
-		(property "Reference" "D47"
+		(property "Reference" "D269"
 			(at 228.854 135.636 0)
 			(effects
 				(font
@@ -8081,7 +7946,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 217.678 148.844 0)
 			(effects
 				(font
@@ -8089,7 +7954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 226.06 149.86 0)
 			(effects
 				(font
@@ -8118,7 +7983,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 224.79 142.24 0)
 			(effects
 				(font
@@ -8127,7 +7992,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 224.79 142.24 0)
 			(effects
 				(font
@@ -8151,7 +8016,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D47")
+					(reference "D269")
 					(unit 1)
 				)
 			)
@@ -8167,7 +8032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88d81c15-1394-469c-8363-d156d6dbaeac")
-		(property "Reference" "C17"
+		(property "Reference" "C211"
 			(at 44.45 93.98 90)
 			(effects
 				(font
@@ -8219,7 +8084,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C17")
+					(reference "C211")
 					(unit 1)
 				)
 			)
@@ -8235,7 +8100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89286c53-e3a3-4fdb-afec-7b3bbfa50736")
-		(property "Reference" "C11"
+		(property "Reference" "C205"
 			(at 220.98 33.02 90)
 			(effects
 				(font
@@ -8287,7 +8152,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C11")
+					(reference "C205")
 					(unit 1)
 				)
 			)
@@ -8303,7 +8168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c07bd99-0baa-4764-bedb-1c94a5be7df7")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0251"
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -8354,14 +8219,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR089")
+					(reference "#PWR0251")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 180.34 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8369,7 +8234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c24c44c-a729-403b-94ec-8866d71e3ec7")
-		(property "Reference" "D46"
+		(property "Reference" "D268"
 			(at 184.404 135.636 0)
 			(effects
 				(font
@@ -8377,7 +8242,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 173.228 148.844 0)
 			(effects
 				(font
@@ -8385,7 +8250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 181.61 149.86 0)
 			(effects
 				(font
@@ -8414,7 +8279,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 180.34 142.24 0)
 			(effects
 				(font
@@ -8423,7 +8288,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 180.34 142.24 0)
 			(effects
 				(font
@@ -8447,7 +8312,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D46")
+					(reference "D268")
 					(unit 1)
 				)
 			)
@@ -8463,7 +8328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e5688df-9520-4ec8-8f90-2d7b22e31c7d")
-		(property "Reference" "C15"
+		(property "Reference" "C209"
 			(at 176.53 63.5 90)
 			(effects
 				(font
@@ -8515,7 +8380,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C15")
+					(reference "C209")
 					(unit 1)
 				)
 			)
@@ -8530,7 +8395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ee28cbf-64b1-4879-82ae-951a3d942256")
-		(property "Reference" "SW12"
+		(property "Reference" "SW209"
 			(at 198.12 88.138 0)
 			(effects
 				(font
@@ -8547,7 +8412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 198.12 81.28 0)
 			(effects
 				(font
@@ -8583,7 +8448,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW12")
+					(reference "SW209")
 					(unit 1)
 				)
 			)
@@ -8598,7 +8463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fbdc279-4139-4675-9dc3-5e2cc618968b")
-		(property "Reference" "D20"
+		(property "Reference" "D213"
 			(at 150.114 120.904 90)
 			(effects
 				(font
@@ -8679,14 +8544,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D20")
+					(reference "D213")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 93.98 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8694,7 +8559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90201cd7-d5d7-4920-b5d0-5c340dfca704")
-		(property "Reference" "D44"
+		(property "Reference" "D266"
 			(at 98.044 135.636 0)
 			(effects
 				(font
@@ -8702,7 +8567,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 86.868 148.844 0)
 			(effects
 				(font
@@ -8710,7 +8575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 95.25 149.86 0)
 			(effects
 				(font
@@ -8739,7 +8604,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 93.98 142.24 0)
 			(effects
 				(font
@@ -8748,7 +8613,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 93.98 142.24 0)
 			(effects
 				(font
@@ -8772,7 +8637,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D44")
+					(reference "D266")
 					(unit 1)
 				)
 			)
@@ -8787,7 +8652,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "912f4479-4158-4533-b5c6-d24c226f3167")
-		(property "Reference" "SW7"
+		(property "Reference" "SW203"
 			(at 154.94 57.404 0)
 			(effects
 				(font
@@ -8804,7 +8669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 154.94 50.8 0)
 			(effects
 				(font
@@ -8840,7 +8705,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW7")
+					(reference "SW203")
 					(unit 1)
 				)
 			)
@@ -8855,7 +8720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91a0ffe1-2106-4381-92a2-58c2b0f34d5d")
-		(property "Reference" "SW1"
+		(property "Reference" "SW201"
 			(at 66.04 57.658 0)
 			(effects
 				(font
@@ -8872,7 +8737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 66.04 50.8 0)
 			(effects
 				(font
@@ -8908,7 +8773,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW1")
+					(reference "SW201")
 					(unit 1)
 				)
 			)
@@ -8924,7 +8789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91b99b3a-0410-4e0b-82e9-5c669781fdd6")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0212"
 			(at 93.98 63.5 0)
 			(effects
 				(font
@@ -8975,7 +8840,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR039")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -8991,7 +8856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "927e5922-96a3-4be4-9916-f7a305f81d8a")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0247"
 			(at 137.16 135.89 0)
 			(effects
 				(font
@@ -9041,7 +8906,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR090")
+					(reference "#PWR0247")
 					(unit 1)
 				)
 			)
@@ -9056,7 +8921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9309b0ed-e7f2-475f-b1df-7da53b9f22e2")
-		(property "Reference" "D21"
+		(property "Reference" "D217"
 			(at 150.114 151.384 90)
 			(effects
 				(font
@@ -9137,14 +9002,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D21")
+					(reference "D217")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 48.26 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9152,7 +9017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "933f6820-e160-4236-99e0-580819c3c402")
-		(property "Reference" "D3"
+		(property "Reference" "D251"
 			(at 52.324 42.926 0)
 			(effects
 				(font
@@ -9160,7 +9025,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 41.148 56.134 0)
 			(effects
 				(font
@@ -9168,7 +9033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 49.53 57.15 0)
 			(effects
 				(font
@@ -9197,7 +9062,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 48.26 49.53 0)
 			(effects
 				(font
@@ -9206,7 +9071,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 48.26 49.53 0)
 			(effects
 				(font
@@ -9230,7 +9095,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D3")
+					(reference "D251")
 					(unit 1)
 				)
 			)
@@ -9246,7 +9111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95bd2615-710b-40b6-89d2-a3f6e5656e90")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0215"
 			(at 224.79 63.5 0)
 			(effects
 				(font
@@ -9297,7 +9162,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR042")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -9312,7 +9177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99330c3b-e69d-4063-9a8e-581448948fc9")
-		(property "Reference" "D27"
+		(property "Reference" "D209"
 			(at 193.294 90.424 90)
 			(effects
 				(font
@@ -9393,7 +9258,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D27")
+					(reference "D209")
 					(unit 1)
 				)
 			)
@@ -9409,7 +9274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b2fc7f4-dfb1-433d-814f-f335a39c5684")
-		(property "Reference" "C23"
+		(property "Reference" "C216"
 			(at 90.17 125.73 90)
 			(effects
 				(font
@@ -9461,7 +9326,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C23")
+					(reference "C216")
 					(unit 1)
 				)
 			)
@@ -9476,7 +9341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b9dbc0e-8758-4c55-97ff-75c42506ae36")
-		(property "Reference" "D37"
+		(property "Reference" "D219"
 			(at 237.744 151.384 90)
 			(effects
 				(font
@@ -9557,7 +9422,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D37")
+					(reference "D219")
 					(unit 1)
 				)
 			)
@@ -9573,7 +9438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a20a78fd-b8a4-4306-9680-69ad6446190c")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR0235"
 			(at 224.79 104.14 0)
 			(effects
 				(font
@@ -9623,7 +9488,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR084")
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
@@ -9639,7 +9504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2b75803-66e7-4eee-9c7f-7b83631300aa")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0238"
 			(at 123.19 101.6 0)
 			(effects
 				(font
@@ -9690,7 +9555,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR079")
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -9705,7 +9570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a34792dd-05b3-44ec-b2a0-acc9c93b50fd")
-		(property "Reference" "D2"
+		(property "Reference" "D216"
 			(at 106.934 151.384 90)
 			(effects
 				(font
@@ -9786,7 +9651,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D2")
+					(reference "D216")
 					(unit 1)
 				)
 			)
@@ -9802,7 +9667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a62053d5-c2fc-4be0-a726-2ccb6b798392")
-		(property "Reference" "C12"
+		(property "Reference" "C206"
 			(at 44.45 63.5 90)
 			(effects
 				(font
@@ -9854,7 +9719,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C12")
+					(reference "C206")
 					(unit 1)
 				)
 			)
@@ -9870,7 +9735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a621da22-9e35-4293-a92b-a9b87ed70d2f")
-		(property "Reference" "C24"
+		(property "Reference" "C217"
 			(at 133.35 125.73 90)
 			(effects
 				(font
@@ -9922,7 +9787,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C24")
+					(reference "C217")
 					(unit 1)
 				)
 			)
@@ -9937,7 +9802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a80eafbf-2389-4932-92a7-22fab24752a5")
-		(property "Reference" "SW20"
+		(property "Reference" "SW216"
 			(at 111.76 149.352 0)
 			(effects
 				(font
@@ -9954,7 +9819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 111.76 142.24 0)
 			(effects
 				(font
@@ -9990,7 +9855,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW20")
+					(reference "SW216")
 					(unit 1)
 				)
 			)
@@ -10006,7 +9871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aab4ec59-5898-4d40-9efd-5d6a0ddf98bc")
-		(property "Reference" "C25"
+		(property "Reference" "C218"
 			(at 176.53 125.73 90)
 			(effects
 				(font
@@ -10058,7 +9923,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C25")
+					(reference "C218")
 					(unit 1)
 				)
 			)
@@ -10074,7 +9939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac26b8fa-a371-44fd-ab8f-18a3659da8c9")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0234"
 			(at 180.34 104.14 0)
 			(effects
 				(font
@@ -10124,7 +9989,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR082")
+					(reference "#PWR0234")
 					(unit 1)
 				)
 			)
@@ -10140,7 +10005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acdf91db-a872-49d6-bfa7-a890352af3ea")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0208"
 			(at 123.19 40.64 0)
 			(effects
 				(font
@@ -10191,7 +10056,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR059")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -10207,7 +10072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ace809f7-8ebe-4c62-b639-b969dd36eba3")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0223"
 			(at 123.19 71.12 0)
 			(effects
 				(font
@@ -10258,7 +10123,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR069")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -10274,7 +10139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b127b478-9038-42c4-8c2c-8adc556a2603")
-		(property "Reference" "C18"
+		(property "Reference" "C212"
 			(at 90.17 93.98 90)
 			(effects
 				(font
@@ -10326,7 +10191,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C18")
+					(reference "C212")
 					(unit 1)
 				)
 			)
@@ -10342,7 +10207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b337f08c-429b-4f35-b8e6-f65bb5301798")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR0227"
 			(at 93.98 93.98 0)
 			(effects
 				(font
@@ -10393,7 +10258,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR044")
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -10409,7 +10274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5148b8d-e436-4905-85da-7de7c241967c")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR0231"
 			(at 48.26 104.14 0)
 			(effects
 				(font
@@ -10459,7 +10324,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR076")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -10475,7 +10340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b54794ee-7b48-48a7-aec3-f479deb09ebb")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR0254"
 			(at 93.98 156.21 0)
 			(effects
 				(font
@@ -10526,7 +10391,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR054")
+					(reference "#PWR0254")
 					(unit 1)
 				)
 			)
@@ -10541,7 +10406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7a3c503-817f-4bd6-a435-6f52488a7faf")
-		(property "Reference" "SW5"
+		(property "Reference" "SW207"
 			(at 111.76 88.138 0)
 			(effects
 				(font
@@ -10558,7 +10423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 111.76 81.28 0)
 			(effects
 				(font
@@ -10594,7 +10459,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW5")
+					(reference "SW207")
 					(unit 1)
 				)
 			)
@@ -10610,7 +10475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b932bce9-7027-4c8d-879a-3d4cbc0518d2")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0217"
 			(at 93.98 73.66 0)
 			(effects
 				(font
@@ -10660,7 +10525,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR068")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -10676,7 +10541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b99d7333-9ff6-4b1e-9ec4-334a0a2c29cb")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0245"
 			(at 224.79 124.46 0)
 			(effects
 				(font
@@ -10727,7 +10592,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR052")
+					(reference "#PWR0245")
 					(unit 1)
 				)
 			)
@@ -10743,7 +10608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba8e47b6-7ea3-4769-85e4-1893372687b7")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR0219"
 			(at 180.34 73.66 0)
 			(effects
 				(font
@@ -10793,7 +10658,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR072")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -10809,7 +10674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be92b9c2-2389-4d80-ba0a-de25e9c09ce7")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0253"
 			(at 210.82 133.35 0)
 			(effects
 				(font
@@ -10860,14 +10725,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR093")
+					(reference "#PWR0253")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 224.79 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10875,7 +10740,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c097297d-3144-4921-adcd-d904fbce6f5f")
-		(property "Reference" "D14"
+		(property "Reference" "D255"
 			(at 228.854 42.926 0)
 			(effects
 				(font
@@ -10883,7 +10748,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 217.678 56.134 0)
 			(effects
 				(font
@@ -10891,7 +10756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 226.06 57.15 0)
 			(effects
 				(font
@@ -10920,7 +10785,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 224.79 49.53 0)
 			(effects
 				(font
@@ -10929,7 +10794,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 224.79 49.53 0)
 			(effects
 				(font
@@ -10953,7 +10818,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D14")
+					(reference "D255")
 					(unit 1)
 				)
 			)
@@ -10969,7 +10834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c132d5e2-72b7-401d-b3d7-aa41444c3632")
-		(property "Reference" "C8"
+		(property "Reference" "C202"
 			(at 90.17 33.02 90)
 			(effects
 				(font
@@ -11021,7 +10886,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C8")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -11036,7 +10901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1c6efeb-f382-41fe-b5c5-371c26bddc45")
-		(property "Reference" "SW6"
+		(property "Reference" "SW212"
 			(at 111.76 118.618 0)
 			(effects
 				(font
@@ -11053,7 +10918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 111.76 111.76 0)
 			(effects
 				(font
@@ -11089,7 +10954,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW6")
+					(reference "SW212")
 					(unit 1)
 				)
 			)
@@ -11105,7 +10970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3d9491c-fd83-4208-a7c9-41244cb0b778")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0201"
 			(at 48.26 43.18 0)
 			(effects
 				(font
@@ -11155,7 +11020,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR033")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -11171,7 +11036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6851ce6-bb07-490a-9f40-ce4ea8ad5fc0")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR0207"
 			(at 80.01 40.64 0)
 			(effects
 				(font
@@ -11222,7 +11087,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR053")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -11238,7 +11103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6b07183-3fcc-4e6f-a696-a9d2d878ae56")
-		(property "Reference" "C16"
+		(property "Reference" "C210"
 			(at 220.98 63.5 90)
 			(effects
 				(font
@@ -11290,7 +11155,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C16")
+					(reference "C210")
 					(unit 1)
 				)
 			)
@@ -11306,7 +11171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c75b8384-e99e-4165-a08e-0fc7062461d4")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0224"
 			(at 166.37 71.12 0)
 			(effects
 				(font
@@ -11357,7 +11222,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR071")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -11373,7 +11238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c862302d-1a68-46e0-b675-248d13b9fffb")
-		(property "Reference" "C10"
+		(property "Reference" "C204"
 			(at 176.53 33.02 90)
 			(effects
 				(font
@@ -11425,7 +11290,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C10")
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -11441,7 +11306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9404eef-98ed-4e58-be06-bdc934da0274")
-		(property "Reference" "R13"
+		(property "Reference" "R204"
 			(at 30.48 135.89 90)
 			(effects
 				(font
@@ -11493,7 +11358,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "R13")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -11508,7 +11373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca88675c-c38b-42ec-a8a2-8059af30329d")
-		(property "Reference" "D6"
+		(property "Reference" "D206"
 			(at 61.214 90.424 90)
 			(effects
 				(font
@@ -11589,7 +11454,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D6")
+					(reference "D206")
 					(unit 1)
 				)
 			)
@@ -11604,7 +11469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb0aafe5-9603-4493-bc10-c1aa8c9d1716")
-		(property "Reference" "D34"
+		(property "Reference" "D205"
 			(at 237.744 59.944 90)
 			(effects
 				(font
@@ -11685,7 +11550,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D34")
+					(reference "D205")
 					(unit 1)
 				)
 			)
@@ -11701,7 +11566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf2549ea-7a55-4600-8a94-99b103e0210e")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0246"
 			(at 93.98 135.89 0)
 			(effects
 				(font
@@ -11751,7 +11616,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR088")
+					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -11766,7 +11631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfbe4b3a-2774-4cda-b993-18e04adeb917")
-		(property "Reference" "D13"
+		(property "Reference" "D212"
 			(at 106.934 120.904 90)
 			(effects
 				(font
@@ -11847,7 +11712,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D13")
+					(reference "D212")
 					(unit 1)
 				)
 			)
@@ -11862,7 +11727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2c4714b-c946-4dd9-9825-3cdc32c4ba7e")
-		(property "Reference" "SW13"
+		(property "Reference" "SW214"
 			(at 198.12 118.618 0)
 			(effects
 				(font
@@ -11879,7 +11744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 198.12 111.76 0)
 			(effects
 				(font
@@ -11915,7 +11780,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW13")
+					(reference "SW214")
 					(unit 1)
 				)
 			)
@@ -11931,7 +11796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d61cee2f-083e-4817-93ff-939584bc4b98")
-		(property "Reference" "C26"
+		(property "Reference" "C219"
 			(at 220.98 125.73 90)
 			(effects
 				(font
@@ -11983,14 +11848,14 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C26")
+					(reference "C219")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
+		(lib_id "LED:SK6805")
 		(at 180.34 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11998,7 +11863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8193fef-ec37-4b7d-b9a2-449fdda4b1f8")
-		(property "Reference" "D31"
+		(property "Reference" "D264"
 			(at 184.404 103.886 0)
 			(effects
 				(font
@@ -12006,7 +11871,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "SK6805-EC15"
 			(at 173.228 117.094 0)
 			(effects
 				(font
@@ -12014,7 +11879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
 			(at 181.61 118.11 0)
 			(effects
 				(font
@@ -12043,7 +11908,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "XL-5050RGBC-WS2812B-S"
+		(property "PN" "SK6805-EC15"
 			(at 180.34 110.49 0)
 			(effects
 				(font
@@ -12052,7 +11917,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22461793"
+		(property "LCSC" "C2890035"
 			(at 180.34 110.49 0)
 			(effects
 				(font
@@ -12076,7 +11941,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D31")
+					(reference "D264")
 					(unit 1)
 				)
 			)
@@ -12092,7 +11957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8b205fc-bb9a-4fe8-ac50-1f3437ed1b31")
-		(property "Reference" "C9"
+		(property "Reference" "C203"
 			(at 133.35 33.02 90)
 			(effects
 				(font
@@ -12144,7 +12009,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C9")
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -12160,7 +12025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8bcaba0-74e9-4b3f-8467-0a90ef2aa909")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0249"
 			(at 224.79 135.89 0)
 			(effects
 				(font
@@ -12210,7 +12075,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR094")
+					(reference "#PWR0249")
 					(unit 1)
 				)
 			)
@@ -12225,7 +12090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc2d0932-e2a8-4498-bce8-cbd41c3031c8")
-		(property "Reference" "SW18"
+		(property "Reference" "SW219"
 			(at 242.57 149.098 0)
 			(effects
 				(font
@@ -12242,7 +12107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 242.57 142.24 0)
 			(effects
 				(font
@@ -12278,7 +12143,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW18")
+					(reference "SW219")
 					(unit 1)
 				)
 			)
@@ -12293,7 +12158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd5f9e87-d47c-4e03-9f89-4d6e7a86f756")
-		(property "Reference" "SW2"
+		(property "Reference" "SW206"
 			(at 66.04 88.138 0)
 			(effects
 				(font
@@ -12310,7 +12175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 66.04 81.28 0)
 			(effects
 				(font
@@ -12346,7 +12211,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW2")
+					(reference "SW206")
 					(unit 1)
 				)
 			)
@@ -12361,7 +12226,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e29d2f14-da14-40b7-be44-21190ef47de8")
-		(property "Reference" "D5"
+		(property "Reference" "D201"
 			(at 61.214 59.944 90)
 			(effects
 				(font
@@ -12442,7 +12307,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D5")
+					(reference "D201")
 					(unit 1)
 				)
 			)
@@ -12458,7 +12323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3676003-99e6-4e5f-b4ae-6ef9965990d7")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR0232"
 			(at 93.98 104.14 0)
 			(effects
 				(font
@@ -12508,7 +12373,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR078")
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
@@ -12524,7 +12389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e516e76d-4d53-42a4-b3e5-1ec9eb48c8d3")
-		(property "Reference" "C19"
+		(property "Reference" "C213"
 			(at 133.35 93.98 90)
 			(effects
 				(font
@@ -12576,7 +12441,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C19")
+					(reference "C213")
 					(unit 1)
 				)
 			)
@@ -12592,7 +12457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6774979-6f29-4144-a4cb-f06cbbeb7313")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR0222"
 			(at 80.01 71.12 0)
 			(effects
 				(font
@@ -12643,7 +12508,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR067")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -12659,7 +12524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6f5d045-46a1-45ad-a8e3-a514c8ce3036")
-		(property "Reference" "C21"
+		(property "Reference" "C215"
 			(at 220.98 93.98 90)
 			(effects
 				(font
@@ -12711,7 +12576,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "C21")
+					(reference "C215")
 					(unit 1)
 				)
 			)
@@ -12727,7 +12592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea41f005-6cf4-4982-b84c-d12e9d100702")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR0230"
 			(at 224.79 93.98 0)
 			(effects
 				(font
@@ -12778,7 +12643,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR047")
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -12794,7 +12659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec323297-ed53-44b8-beb8-7d2bb3dfd68c")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0237"
 			(at 80.01 101.6 0)
 			(effects
 				(font
@@ -12845,7 +12710,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR077")
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -12861,7 +12726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecc510c8-e8ed-4f06-8bc7-03bff82acb86")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR0239"
 			(at 166.37 101.6 0)
 			(effects
 				(font
@@ -12912,7 +12777,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR081")
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -12928,7 +12793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eceabe28-8b39-412b-b3b1-24e17f8a2923")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR0204"
 			(at 180.34 43.18 0)
 			(effects
 				(font
@@ -12978,7 +12843,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR062")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -12993,7 +12858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed0a9678-5fb4-43b0-8216-0fb1137ef375")
-		(property "Reference" "D26"
+		(property "Reference" "D204"
 			(at 193.294 59.944 90)
 			(effects
 				(font
@@ -13074,7 +12939,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D26")
+					(reference "D204")
 					(unit 1)
 				)
 			)
@@ -13090,7 +12955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed8a6a31-44aa-40a3-a4ae-214ed268fed5")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0202"
 			(at 93.98 43.18 0)
 			(effects
 				(font
@@ -13140,7 +13005,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR058")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -13156,7 +13021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f009390f-6d85-4c4b-bc45-73ac3fab194c")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0252"
 			(at 166.37 133.35 0)
 			(effects
 				(font
@@ -13207,7 +13072,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR091")
+					(reference "#PWR0252")
 					(unit 1)
 				)
 			)
@@ -13223,7 +13088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0a122df-3b44-47dd-b3bd-fdd77f10a840")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR0209"
 			(at 166.37 40.64 0)
 			(effects
 				(font
@@ -13274,7 +13139,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR061")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -13290,7 +13155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2b7c058-8cc0-4c16-a9a4-e54342154190")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0213"
 			(at 137.16 63.5 0)
 			(effects
 				(font
@@ -13341,7 +13206,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR040")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -13357,7 +13222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fed87784-e8ec-42b0-b406-89f5f0e6c1c9")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR0255"
 			(at 137.16 156.21 0)
 			(effects
 				(font
@@ -13408,7 +13273,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "#PWR055")
+					(reference "#PWR0255")
 					(unit 1)
 				)
 			)
@@ -13423,7 +13288,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fee71fd9-6f3f-4051-9560-494039144759")
-		(property "Reference" "SW17"
+		(property "Reference" "SW215"
 			(at 242.57 118.618 0)
 			(effects
 				(font
@@ -13440,7 +13305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "personal:Gateron_Milky_Yellow"
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
 			(at 242.57 111.76 0)
 			(effects
 				(font
@@ -13476,7 +13341,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "SW17")
+					(reference "SW215")
 					(unit 1)
 				)
 			)
@@ -13491,7 +13356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fff3b3e7-1827-4ba7-90b6-c3a5ca69d605")
-		(property "Reference" "D7"
+		(property "Reference" "D211"
 			(at 61.214 120.904 90)
 			(effects
 				(font
@@ -13572,7 +13437,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576/500620f1-95ef-44fe-b64a-34f745ad453f"
-					(reference "D7")
+					(reference "D211")
 					(unit 1)
 				)
 			)
