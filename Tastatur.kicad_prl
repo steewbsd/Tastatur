@@ -1,19 +1,13 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "GND",
-      "+5VUSB",
-      "+3V3USB",
-      "+3V3",
-      "+5VBAT",
-      "+5V",
-      "+3V3BAT"
+      "GND"
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,

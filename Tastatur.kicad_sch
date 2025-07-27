@@ -9557,6 +9557,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 40.64) (xy 219.71 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021b7bd0-7980-4445-b484-68cab88c4e97")
+	)
+	(wire
+		(pts
 			(xy 62.23 138.43) (xy 74.93 138.43)
 		)
 		(stroke
@@ -11077,16 +11087,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 40.64) (xy 219.71 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82f1c684-33cf-4c51-a2c7-639765e3e1cf")
-	)
-	(wire
-		(pts
 			(xy 148.59 179.07) (xy 151.13 179.07)
 		)
 		(stroke
@@ -12067,6 +12067,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 71.12) (xy 219.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb054e20-c5de-4689-9485-9961e2a5fa85")
+	)
+	(wire
+		(pts
 			(xy 254 113.03) (xy 254 119.38)
 		)
 		(stroke
@@ -12174,16 +12184,6 @@
 			(type default)
 		)
 		(uuid "f75785cd-995c-46fc-937f-85c7df0d538a")
-	)
-	(wire
-		(pts
-			(xy 217.17 71.12) (xy 219.71 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ada27f-ac46-4572-b9a7-7f8d1242857e")
 	)
 	(polyline
 		(pts
@@ -12315,16 +12315,6 @@
 		)
 		(uuid "1e23807b-6ffc-4d2a-a78a-4c12711afc09")
 	)
-	(label "ROW3"
-		(at 217.17 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "26366b2c-9e94-408d-88f0-80bbb7e2f91b")
-	)
 	(label "ROW2"
 		(at 265.43 113.03 90)
 		(effects
@@ -12355,6 +12345,16 @@
 		)
 		(uuid "2fd25830-7f7c-4a43-9d3f-8268ef883dc5")
 	)
+	(label "LEDSEL1"
+		(at 217.17 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3183b9aa-d964-48d0-b6c8-3c97ecea4827")
+	)
 	(label "ROW0"
 		(at 270.51 113.03 90)
 		(effects
@@ -12384,6 +12384,26 @@
 			(justify left bottom)
 		)
 		(uuid "41b279b0-f198-427b-a9f3-000a848d2c9e")
+	)
+	(label "ROW3"
+		(at 217.17 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "468b2111-2d08-4c65-91f9-8340b4620963")
+	)
+	(label "TCK"
+		(at 256.54 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "547aee0e-f817-471f-9b4b-620c47bb7aec")
 	)
 	(label "VBUS"
 		(at 62.23 50.8 0)
@@ -12485,15 +12505,15 @@
 		)
 		(uuid "77845286-b30e-470e-8ea1-60cbb1d685ec")
 	)
-	(label "LEDSEL1"
-		(at 217.17 40.64 180)
+	(label "TIO"
+		(at 256.54 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "8395acc7-f449-4102-bb87-85bb672db82d")
+		(uuid "7c52eb70-e3e4-4e47-b315-1c5141dccedd")
 	)
 	(label "VBAT"
 		(at 57.15 148.59 180)
@@ -14151,7 +14171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering"
+		(property "Footprint" "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm"
 			(at 38.608 143.51 0)
 			(effects
 				(font
