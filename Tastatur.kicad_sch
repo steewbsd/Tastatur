@@ -21611,7 +21611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VBAT"
+		(property "Value" "+3V3BAT"
 			(at 122.428 22.352 0)
 			(effects
 				(font
