@@ -1,0 +1,23 @@
+[kbplacer_plugin_action.py:65]: Plugin version: 0.13
+[kbplacer_plugin_action.py:66]: Python version: '3.13.5 (main, Jun 21 2025, 01:04:42) [GCC 14.2.1 20250405]'
+[kbplacer_plugin_action.py:67]: KiCad version: 9.0.3 with 4.2.3 gtk3 (phoenix) wxWidgets 3.2.8
+[kbplacer_dialog.py:586]: Language: es
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "/home/steew/Downloads/canonical.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW20{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Back"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D20{}", "position_option": "Relative", "position": null, "template_path": ""}, "additional_elements": [{"annotation_format": "DL20{}", "position_option": "Relative", "position": null, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:362]: Set key 1U distance: 19050000/19050000
+[key_placer.py:124]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'/COL3', '/ROW1'}): ['SW207'], frozenset({'/COL2', '/ROW0'}): ['SW203'], frozenset({'/COL1', '/ROW1'}): ['SW209'], frozenset({'/ROW0', '/COL1'}): ['SW204'], frozenset({'/COL4', '/ROW1'}): ['SW206'], frozenset({'/ROW0', '/COL3'}): ['SW202'], frozenset({'/ROW0', '/COL0'}): ['SW205'], frozenset({'/COL2', '/ROW1'}): ['SW208'], frozenset({'/ROW0', '/COL4'}): ['SW201']})
+[key_placer.py:128]: Diodes by switch: {'SW207': ['D207'], 'SW205': ['D205'], 'SW204': ['D204'], 'SW206': ['D206'], 'SW209': ['D209'], 'SW201': ['D201'], 'SW208': ['D208'], 'SW202': ['D202'], 'SW203': ['D203']}
+[board_modifier.py:64]: Searching for SW201 footprint in /home/steew/Development/Tastatur/Right/Tastatur.kicad_pcb
+[key_placer.py:558]: Looking for connection template between SW201 and other elements
+[board_modifier.py:98]: Getting SW201 footprint position: (-182040800, 56106400)
+[key_placer.py:602]: Got connection template: 
+[key_placer.py:124]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'/COL3', '/ROW1'}): ['SW207'], frozenset({'/COL2', '/ROW0'}): ['SW203'], frozenset({'/COL1', '/ROW1'}): ['SW209'], frozenset({'/ROW0', '/COL1'}): ['SW204'], frozenset({'/COL4', '/ROW1'}): ['SW206'], frozenset({'/ROW0', '/COL3'}): ['SW202'], frozenset({'/ROW0', '/COL0'}): ['SW205'], frozenset({'/COL2', '/ROW1'}): ['SW208'], frozenset({'/ROW0', '/COL4'}): ['SW201']})
+[key_placer.py:128]: Diodes by switch: {'SW207': ['D207'], 'SW205': ['D205'], 'SW204': ['D204'], 'SW206': ['D206'], 'SW209': ['D209'], 'SW201': ['D201'], 'SW208': ['D208'], 'SW202': ['D202'], 'SW203': ['D203']}
+[board_modifier.py:98]: Getting SW201 footprint position: (-182040800, 56106400)
+[board_modifier.py:98]: Getting D201 footprint position: (-182040800, 64906400)
+[key_placer.py:900]: Element info updated: ElementInfo(annotation_format='D20{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=0.0, y=8.8, orientation=0.0, side=<Side.FRONT: 'Front'>), template_path='')
+[board_modifier.py:64]: Searching for SW201 footprint in /home/steew/Development/Tastatur/Right/Tastatur.kicad_pcb
+[board_modifier.py:64]: Searching for DL201 footprint in /home/steew/Development/Tastatur/Right/Tastatur.kicad_pcb
+[board_modifier.py:98]: Getting SW201 footprint position: (-182040800, 56106400)
+[board_modifier.py:98]: Getting DL201 footprint position: (-104100000, 16150000)
+[key_placer.py:866]: Element info updated: ElementInfo(annotation_format='DL20{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=77.9408, y=-39.9564, orientation=0.0, side=<Side.FRONT: 'Front'>), template_path='')
+[kle_serial.py:897]: User layout: {'points': {'zones': {'matrix': {'anchor': {'rotate': 5}, 'columns': {'pinky': None, 'ring': {'key': {'splay': -5, 'origin': [-12, -19], 'stagger': 12}}, 'middle': {'key': {'stagger': 5, 'splay': -5}}, 'index': {'key': {'stagger': -6, 'splay': -5}}, 'inner': {'key': {'stagger': -2, 'splay': -5}}}, 'rows': {'bottom': None, 'home': None, 'top': None}}, 'thumbfan': {'anchor': {'ref': 'matrix_inner_bottom', 'shift': [-7, -19]}, 'columns': {'near': None, 'home': {'key': {'spread': 21.25, 'splay': -10, 'origin': [-11.75, -9]}}, 'far': {'key': {'spread': 21.25, 'splay': -10, 'origin': [-9.5, -9]}}}, 'rows': {'thumb': None}}}, 'rotate': -20, 'mirror': {'ref': 'matrix_pinky_home', 'distance': 223.7529778}}}

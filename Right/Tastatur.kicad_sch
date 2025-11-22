@@ -2104,380 +2104,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x05_Counter_Clockwise"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_02x05_Counter_Clockwise"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_02x05_Counter_Clockwise_1_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 5.207)
-					(end 2.54 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Antenna_Shield"
 			(pin_numbers
 				(hide yes)
@@ -7482,107 +7108,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDS"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDS_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDS_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -8773,18 +8298,6 @@
 		(uuid 3de71be8-6cc2-4b00-82ff-ca62655ab589)
 	)
 	(rectangle
-		(start 160.02 15.24)
-		(end 193.04 46.99)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4d628575-e248-49b1-852a-6da48a7b687d)
-	)
-	(rectangle
 		(start 55.88 105.41)
 		(end 60.96 116.84)
 		(stroke
@@ -8808,18 +8321,6 @@
 			(type none)
 		)
 		(uuid 5cde88a2-e630-45db-ac05-74969dcacbf8)
-	)
-	(rectangle
-		(start 205.105 50.8)
-		(end 219.075 59.055)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5f06995d-bf0f-418f-ae83-d363ff5f677d)
 	)
 	(rectangle
 		(start 53.34 33.02)
@@ -8985,16 +8486,6 @@
 		)
 		(uuid "83d752c9-f18b-40e6-9e91-e2d107e5bcaf")
 	)
-	(text "ADNS"
-		(exclude_from_sim no)
-		(at 207.264 55.118 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8d98b7c9-7e79-4df1-84f2-770073addec1")
-	)
 	(text "Split X60 Connector"
 		(exclude_from_sim no)
 		(at 151.892 129.032 0)
@@ -9024,16 +8515,6 @@
 			)
 		)
 		(uuid "aae3fb67-9a00-402b-a163-db3220b72a5f")
-	)
-	(text "Trackball Conn."
-		(exclude_from_sim no)
-		(at 177.038 44.196 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "af430cf4-ef1a-4b2c-b07a-200ea79581c9")
 	)
 	(text "LED Battery Boost"
 		(exclude_from_sim no)
@@ -9185,7 +8666,7 @@
 		)
 		(uuid "c179926e-de69-444f-b7bc-16e6754bc723")
 	)
-	(text_box "Male header provides power to\nthe socket side"
+	(text_box "Female header receives power from\nthe master side"
 		(exclude_from_sim no)
 		(at 147.32 114.3 0)
 		(size 20.32 10.16)
@@ -9268,12 +8749,6 @@
 		(uuid "16a62046-25df-4fbc-8e36-04452db24319")
 	)
 	(junction
-		(at 189.23 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18d2c712-8f6d-4023-b097-e26c65d8740d")
-	)
-	(junction
 		(at 156.21 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9308,18 +8783,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cfe7a28-f8fd-4cff-b0a0-e8a6c5db503f")
-	)
-	(junction
-		(at 173.99 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "513bc4b7-be04-47ca-a8f1-add4dd3a5589")
-	)
-	(junction
-		(at 165.1 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5818efa6-d976-4239-bb44-c2a219769f44")
 	)
 	(junction
 		(at 58.42 27.94)
@@ -9430,12 +8893,6 @@
 		(uuid "b44ccedc-ac8c-441e-be73-eb69d1640483")
 	)
 	(junction
-		(at 184.15 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8089d60-8b32-4ef2-a77d-4b2882a9a9b1")
-	)
-	(junction
 		(at 62.23 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9506,6 +8963,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f35d5ab1-15c5-4a5c-b39c-41f27cd57c85")
+	)
+	(no_connect
+		(at 217.17 55.88)
+		(uuid "32243369-81b8-4e92-8d43-094c358b7df5")
+	)
+	(no_connect
+		(at 217.17 58.42)
+		(uuid "8eab1974-ac62-44df-8cd2-c0ac38ee6b51")
+	)
+	(no_connect
+		(at 217.17 53.34)
+		(uuid "8f18fd25-aa21-449e-8336-ba068360b9ed")
 	)
 	(no_connect
 		(at 50.8 33.02)
@@ -9827,16 +9296,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 27.94) (xy 184.15 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19979563-51c1-4ac1-b2a7-5a46bf35a967")
-	)
-	(wire
-		(pts
 			(xy 115.57 69.85) (xy 115.57 74.93)
 		)
 		(stroke
@@ -10067,16 +9526,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 21.59) (xy 184.15 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a2180d7-89e9-4c20-84dc-134edb82d72b")
-	)
-	(wire
-		(pts
 			(xy 256.54 45.72) (xy 261.62 45.72)
 		)
 		(stroke
@@ -10227,16 +9676,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 21.59) (xy 189.23 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38207cef-48cc-413b-987f-4eb8bdccc833")
-	)
-	(wire
-		(pts
 			(xy 118.11 107.95) (xy 118.11 121.92)
 		)
 		(stroke
@@ -10304,16 +9743,6 @@
 			(type default)
 		)
 		(uuid "3c51a0ef-c1d2-4b90-a44b-3f400c38ff94")
-	)
-	(wire
-		(pts
-			(xy 173.99 38.1) (xy 165.1 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cd90114-4734-4ba5-bfa7-1df9a55086e7")
 	)
 	(wire
 		(pts
@@ -10524,16 +9953,6 @@
 			(type default)
 		)
 		(uuid "508660ee-1296-441e-8181-b1b6198e2562")
-	)
-	(wire
-		(pts
-			(xy 167.64 33.02) (xy 165.1 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50f6b8ca-d49f-4790-891c-3cb730699399")
 	)
 	(wire
 		(pts
@@ -10867,16 +10286,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 38.1) (xy 182.88 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "722fafa2-e9db-4830-b0db-04c9cfb9251b")
-	)
-	(wire
-		(pts
 			(xy 243.84 27.94) (xy 243.84 30.48)
 		)
 		(stroke
@@ -11197,16 +10606,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 35.56) (xy 182.88 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9357be29-dfd1-4d5c-a05e-7203e5f798c3")
-	)
-	(wire
-		(pts
 			(xy 170.18 170.18) (xy 170.18 167.64)
 		)
 		(stroke
@@ -11477,16 +10876,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 27.94) (xy 184.15 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba2a0998-f7ae-4ea5-83a2-f86414186cb5")
-	)
-	(wire
-		(pts
 			(xy 170.18 170.18) (xy 170.18 172.72)
 		)
 		(stroke
@@ -11707,16 +11096,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 25.4) (xy 180.34 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce582242-ff9d-482d-91d5-51cbd29ac3b6")
-	)
-	(wire
-		(pts
 			(xy 22.86 25.4) (xy 22.86 53.34)
 		)
 		(stroke
@@ -11734,16 +11113,6 @@
 			(type default)
 		)
 		(uuid "d099c2bc-3b66-4110-9e7a-dd8685f0e89e")
-	)
-	(wire
-		(pts
-			(xy 189.23 33.02) (xy 180.34 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d253cda4-c979-4910-9bcc-a587036ac32f")
 	)
 	(wire
 		(pts
@@ -11857,16 +11226,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 33.02) (xy 165.1 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daeb2395-8180-4c53-94c5-c5bcd25c48d1")
-	)
-	(wire
-		(pts
 			(xy 58.42 21.59) (xy 58.42 27.94)
 		)
 		(stroke
@@ -11927,16 +11286,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 35.56) (xy 167.64 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd6f5855-c98a-44e7-a236-8e9b75e22849")
-	)
-	(wire
-		(pts
 			(xy 149.86 107.95) (xy 149.86 111.76)
 		)
 		(stroke
@@ -11944,16 +11293,6 @@
 			(type default)
 		)
 		(uuid "ddec3053-17d7-496c-940b-f5557bf52878")
-	)
-	(wire
-		(pts
-			(xy 189.23 30.48) (xy 189.23 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deff502e-956a-4792-8f19-c22d764c94ba")
 	)
 	(wire
 		(pts
@@ -12147,16 +11486,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 30.48) (xy 189.23 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4bdfe29-fdd3-4dc9-8e7f-c50affffdfcd")
-	)
-	(wire
-		(pts
 			(xy 76.2 185.42) (xy 80.01 185.42)
 		)
 		(stroke
@@ -12207,16 +11536,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 35.56) (xy 182.88 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc39cafb-6658-4b1e-9f39-e79033a2b7e4")
-	)
-	(wire
-		(pts
 			(xy 182.88 77.47) (xy 187.96 77.47)
 		)
 		(stroke
@@ -12224,16 +11543,6 @@
 			(type default)
 		)
 		(uuid "fd22d975-1518-4cb9-a1a4-67f3c73d7004")
-	)
-	(wire
-		(pts
-			(xy 165.1 38.1) (xy 165.1 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feada0f4-01b0-449a-8d80-5582a438b441")
 	)
 	(label "COL2"
 		(at 217.17 45.72 180)
@@ -12285,36 +11594,6 @@
 		)
 		(uuid "18a7aa23-b78f-4bc8-929f-c149015fb5fd")
 	)
-	(label "MISO"
-		(at 167.64 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1b873cf7-bc84-4708-ad43-3ceb8dff7d21")
-	)
-	(label "SCK"
-		(at 217.17 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1deccc19-e2d3-4af8-855e-2462f0d5a59c")
-	)
-	(label "MISO"
-		(at 217.17 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1e23807b-6ffc-4d2a-a78a-4c12711afc09")
-	)
 	(label "ROW2"
 		(at 265.43 113.03 90)
 		(effects
@@ -12334,16 +11613,6 @@
 			(justify right bottom)
 		)
 		(uuid "2bc80507-4074-424c-a929-a173e3cdcd3a")
-	)
-	(label "SCK"
-		(at 167.64 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2fd25830-7f7c-4a43-9d3f-8268ef883dc5")
 	)
 	(label "LEDSEL1"
 		(at 217.17 71.12 180)
@@ -12555,16 +11824,6 @@
 		)
 		(uuid "9071d817-ec40-43ce-a3e8-19d746986d6a")
 	)
-	(label "MOSI"
-		(at 167.64 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a210b005-b1a5-4ceb-856c-290560565c68")
-	)
 	(label "ROW0"
 		(at 217.17 63.5 180)
 		(effects
@@ -12624,16 +11883,6 @@
 			(justify right bottom)
 		)
 		(uuid "b74f8e9a-7f1c-4a64-b06f-9a23211b32df")
-	)
-	(label "MOSI"
-		(at 217.17 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c3354fd6-145f-41d2-adf2-34078fb5ce40")
 	)
 	(label "ED-"
 		(at 53.34 38.1 0)
@@ -12765,7 +12014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "004f343c-ac75-4d06-9931-a2c5cdb766e3")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0116"
 			(at 22.86 60.96 0)
 			(effects
 				(font
@@ -12816,7 +12065,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0118")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -12832,7 +12081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0055670d-cb4a-47d4-922a-78d1c110fe1c")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0113"
 			(at 252.73 43.18 0)
 			(effects
 				(font
@@ -12884,7 +12133,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0115")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -12899,7 +12148,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01fd6eec-22e8-4dbb-95b1-39d6538adf15")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0133"
 			(at 167.64 80.01 0)
 			(effects
 				(font
@@ -12949,7 +12198,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0134")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -12965,7 +12214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0468d1de-ffd0-4111-b765-13f7074bf343")
-		(property "Reference" "#PWR0260"
+		(property "Reference" "#PWR0121"
 			(at 262.89 60.96 0)
 			(effects
 				(font
@@ -13017,7 +12266,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0260")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -13033,7 +12282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04908c17-4d9a-4670-ae31-05ec715e0ad5")
-		(property "Reference" "SW221"
+		(property "Reference" "SW101"
 			(at 133.35 21.59 0)
 			(effects
 				(font
@@ -13097,7 +12346,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "SW221")
+					(reference "SW101")
 					(unit 1)
 				)
 			)
@@ -13209,7 +12458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07996d8f-4496-4918-8725-e2b2e062d4cc")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0143"
 			(at 30.48 113.03 0)
 			(effects
 				(font
@@ -13260,7 +12509,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0144")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -13276,7 +12525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a2938a2-ddb1-484a-8d23-2edc24e07d0e")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0114"
 			(at 270.51 43.18 0)
 			(effects
 				(font
@@ -13328,7 +12577,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0116")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -13343,7 +12592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0edbe9fa-ea37-42cb-8544-1c2f07b3589e")
-		(property "Reference" "R111"
+		(property "Reference" "R112"
 			(at 44.958 154.178 0)
 			(effects
 				(font
@@ -13397,7 +12646,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R111")
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -13694,7 +12943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "140dfe36-7fc2-4df1-a5a2-02735f8058ab")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0119"
 			(at 59.69 66.04 0)
 			(effects
 				(font
@@ -13745,7 +12994,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0121")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -13761,7 +13010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17b76eab-5a07-40b5-9a63-296da41bf76a")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0131"
 			(at 261.62 80.01 0)
 			(effects
 				(font
@@ -13812,7 +13061,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0132")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -13828,7 +13077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18497edd-60c0-49f0-9b03-7f571805440c")
-		(property "Reference" "H201"
+		(property "Reference" "H101"
 			(at 189.23 101.5999 0)
 			(effects
 				(font
@@ -13876,7 +13125,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "H201")
+					(reference "H101")
 					(unit 1)
 				)
 			)
@@ -13891,7 +13140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18a5ee58-98a2-434e-a247-5e2fa8b52bb4")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0150"
 			(at 54.61 120.65 0)
 			(effects
 				(font
@@ -13942,7 +13191,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0151")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -13957,7 +13206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a43629e-02ef-48ea-8716-6a2b5c8a197f")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0126"
 			(at 156.21 68.58 0)
 			(effects
 				(font
@@ -14007,7 +13256,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0127")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -14022,7 +13271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c2a8f0a-dace-4c3e-a0da-8a613460bce8")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0122"
 			(at 167.64 66.04 0)
 			(effects
 				(font
@@ -14072,7 +13321,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0123")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -14088,7 +13337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d8ecc59-66e8-464d-8d5f-a888fcf52dfd")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0159"
 			(at 153.67 144.78 0)
 			(effects
 				(font
@@ -14138,7 +13387,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0160")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -14392,7 +13641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34941f11-15a0-4bb5-9051-53e3a8d03397")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0127"
 			(at 130.81 69.85 0)
 			(effects
 				(font
@@ -14443,72 +13692,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 271.78 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "349a3c9b-7618-49ca-b718-9c148a29aa01")
-		(property "Reference" "#PWR0119"
-			(at 271.78 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDS"
-			(at 273.05 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 271.78 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38a70fb3-8f38-4c71-8490-d58d0378cb51")
-		)
-		(instances
-			(project ""
-				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0119")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -14523,7 +13707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34b040eb-a942-4114-aee0-32348a24cc9d")
-		(property "Reference" "TP103"
+		(property "Reference" "TP102"
 			(at 38.862 65.278 0)
 			(effects
 				(font
@@ -14575,7 +13759,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "TP103")
+					(reference "TP102")
 					(unit 1)
 				)
 			)
@@ -14743,7 +13927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40450067-751b-4955-bed5-22425365e666")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0135"
 			(at 31.75 90.17 0)
 			(effects
 				(font
@@ -14794,7 +13978,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0136")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -14810,7 +13994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4166c41e-02f6-4166-b6b1-0608c5550b12")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0148"
 			(at 58.42 119.38 0)
 			(effects
 				(font
@@ -14861,7 +14045,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0149")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -14877,7 +14061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42247c66-b74e-492f-a3df-9088eabbd543")
-		(property "Reference" "#PWR0258"
+		(property "Reference" "#PWR0109"
 			(at 143.51 44.45 0)
 			(effects
 				(font
@@ -14928,74 +14112,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0258")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42a1bfde-9016-402b-afab-9b953dd5da07")
-		(property "Reference" "#PWR0111"
-			(at 173.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 173.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8858d454-84bd-4e56-9a37-20442f65e1cb")
-		)
-		(instances
-			(project "Tastatur"
-				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0111")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -15092,7 +14209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "474ff1bb-f2f7-4452-86da-345d92d06fec")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0112"
 			(at 69.85 48.26 0)
 			(effects
 				(font
@@ -15143,7 +14260,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0114")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -15225,72 +14342,6 @@
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
 					(reference "Q101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 184.15 21.59 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c55dd88-bda7-4a2c-8b6a-3248512e444a")
-		(property "Reference" "#PWR0103"
-			(at 184.15 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 183.642 17.526 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 184.15 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cea934cb-c5d0-41d2-9830-e4e8e0da5dde")
-		)
-		(instances
-			(project "Tastatur"
-				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -15387,7 +14438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e9e810f-71f9-4341-aeb1-6ff54c2030ae")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0139"
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -15438,7 +14489,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0140")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -15454,7 +14505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f06a655-0d90-44c6-a791-91c7bfe78837")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0165"
 			(at 151.13 186.69 0)
 			(effects
 				(font
@@ -15506,7 +14557,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0166")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -15592,7 +14643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54167266-ac2e-4cb6-b525-499024fe80e3")
-		(property "Reference" "H202"
+		(property "Reference" "H102"
 			(at 189.23 106.6799 0)
 			(effects
 				(font
@@ -15640,7 +14691,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "H202")
+					(reference "H102")
 					(unit 1)
 				)
 			)
@@ -15655,7 +14706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a77b4a6-4d9c-4187-8b96-609309ee7f38")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0145"
 			(at 97.79 110.49 0)
 			(effects
 				(font
@@ -15705,7 +14756,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0146")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -15721,7 +14772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c6afca0-4af4-4a8b-ae96-c90a3d252459")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0115"
 			(at 279.4 45.72 0)
 			(effects
 				(font
@@ -15773,7 +14824,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0117")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -15910,7 +14961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "600e8c1a-4c24-4377-b269-d93ab56da93d")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0166"
 			(at 50.8 182.88 0)
 			(effects
 				(font
@@ -15961,7 +15012,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0167")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -15977,7 +15028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60d7b711-f093-4fb2-a7b2-a6c2a0725758")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0152"
 			(at 143.51 128.27 0)
 			(effects
 				(font
@@ -16028,7 +15079,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0153")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -16111,7 +15162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6192fb68-1073-4b77-88a8-a3ccd29151fe")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0123"
 			(at 187.96 66.04 0)
 			(effects
 				(font
@@ -16161,7 +15212,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0124")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -16176,7 +15227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65a187fa-dd11-4351-aaa3-e99643f1b6bf")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0142"
 			(at 38.1 109.22 0)
 			(effects
 				(font
@@ -16226,7 +15277,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0143")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -16241,7 +15292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6861bc83-9007-416a-86da-0ec2747e7e3e")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0147"
 			(at 149.86 111.76 0)
 			(effects
 				(font
@@ -16292,7 +15343,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0148")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -16392,7 +15443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ab5e688-7cf4-466d-996f-abf11c2f1ee3")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0149"
 			(at 107.95 121.92 0)
 			(effects
 				(font
@@ -16443,7 +15494,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0150")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -16458,7 +15509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b484ca3-75f2-4eb0-aabd-65ea4e7268ae")
-		(property "Reference" "J102"
+		(property "Reference" "J101"
 			(at 274.066 67.818 0)
 			(effects
 				(font
@@ -16519,7 +15570,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "J102")
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -16535,7 +15586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bd9117f-0d6e-4121-96c3-33b346ae30b4")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0137"
 			(at 78.74 91.44 0)
 			(effects
 				(font
@@ -16586,7 +15637,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0138")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -16601,7 +15652,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cf2e303-de35-4307-ac66-0a9cd115f290")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0151"
 			(at 97.79 124.46 0)
 			(effects
 				(font
@@ -16651,7 +15702,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0152")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -16666,7 +15717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "760d9d15-fcfd-49d7-adbd-54cdb01535fc")
-		(property "Reference" "R107"
+		(property "Reference" "R108"
 			(at 21.082 110.49 90)
 			(effects
 				(font
@@ -16720,7 +15771,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R107")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -16736,7 +15787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78cd9458-d7fe-47da-8da3-2257e2159fd0")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0162"
 			(at 57.15 180.34 0)
 			(effects
 				(font
@@ -16787,7 +15838,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0163")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -17175,98 +16226,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise")
-		(at 172.72 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84d6f7ba-3d21-4119-814b-8132de63ad91")
-		(property "Reference" "J101"
-			(at 173.736 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x05_Counter_Clockwise"
-			(at 173.99 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 172.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "002f784f-d593-4d97-a9cd-5ac944c3b0f5")
-		)
-		(pin "9"
-			(uuid "877c8c9e-6d5d-4615-a591-b6b15a661007")
-		)
-		(pin "5"
-			(uuid "fccc72d3-5af2-44f0-af77-00d6ebace54e")
-		)
-		(pin "4"
-			(uuid "0c732059-e0b0-4290-af74-3a987558dde9")
-		)
-		(pin "3"
-			(uuid "2e6ce8bc-41a4-4bbd-81cd-15306a7662ac")
-		)
-		(pin "2"
-			(uuid "8a9f160f-52e9-4c67-bb0a-fa1c7b55eb80")
-		)
-		(pin "10"
-			(uuid "48c8a44b-047c-449a-9346-b4c19a56d752")
-		)
-		(pin "7"
-			(uuid "bac199e9-4fea-4dc1-b05e-63dde170ac30")
-		)
-		(pin "6"
-			(uuid "40cd7c13-28a5-4488-a4a9-ed31a3bff859")
-		)
-		(pin "8"
-			(uuid "505e44ac-7cdd-4fc1-b461-a9b3c6387212")
-		)
-		(instances
-			(project ""
-				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "J101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 48.26 133.35 0)
 		(unit 1)
@@ -17275,7 +16234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "861fae40-402e-4924-a290-d0e1fc46cc3c")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0154"
 			(at 48.26 139.7 0)
 			(effects
 				(font
@@ -17326,7 +16285,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0155")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -17341,7 +16300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "880c6a23-ca4f-4f47-8669-af109b468460")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0146"
 			(at 118.11 110.49 0)
 			(effects
 				(font
@@ -17391,7 +16350,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0147")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -17407,7 +16366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89f70b79-455a-4f16-adeb-d2d9426c77f8")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0140"
 			(at 177.8 91.44 0)
 			(effects
 				(font
@@ -17458,7 +16417,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0141")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -17474,7 +16433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8abe1793-b592-4b1c-9097-da099788bfc2")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0136"
 			(at 59.69 91.44 0)
 			(effects
 				(font
@@ -17525,7 +16484,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0137")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -17541,7 +16500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b12cab5-7daf-489b-b931-d35ad58171f5")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0163"
 			(at 167.64 180.34 0)
 			(effects
 				(font
@@ -17592,7 +16551,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0164")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -17608,7 +16567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b8ff6d0-cab1-42c3-b74f-a9e9786955a9")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0107"
 			(at 260.35 27.94 0)
 			(effects
 				(font
@@ -17660,7 +16619,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0109")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -17744,7 +16703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8edbf9d6-7059-4c4d-8397-05e45199524c")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0110"
 			(at 97.79 45.72 0)
 			(effects
 				(font
@@ -17795,7 +16754,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0112")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -17810,7 +16769,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "912e9275-d6af-4d42-b8d4-f6bd529cc16a")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0156"
 			(at 62.23 139.7 0)
 			(effects
 				(font
@@ -17860,7 +16819,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0157")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -18026,7 +16985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98628fbc-fd5e-436d-a285-844b638b9c9a")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0168"
 			(at 38.1 196.85 0)
 			(effects
 				(font
@@ -18077,7 +17036,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0169")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -18093,7 +17052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "986e613e-76c6-4956-b4d1-14a63c6b5bd5")
-		(property "Reference" "#PWR0259"
+		(property "Reference" "#PWR0108"
 			(at 125.73 41.91 0)
 			(effects
 				(font
@@ -18144,7 +17103,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0259")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -18159,7 +17118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a7b3c66-ba11-47da-999b-0e64cc220498")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0155"
 			(at 35.56 142.24 0)
 			(effects
 				(font
@@ -18210,7 +17169,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0156")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -18292,7 +17251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d950346-2865-446d-ac32-d30a21ee60e3")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0129"
 			(at 78.74 74.93 0)
 			(effects
 				(font
@@ -18342,7 +17301,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0130")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -18358,7 +17317,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a1d21acf-d874-4f53-8ca0-1ed21ee9a83a")
-		(property "Reference" "R205"
+		(property "Reference" "R101"
 			(at 146.05 33.0199 0)
 			(effects
 				(font
@@ -18412,7 +17371,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R205")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -18428,7 +17387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a476db23-5fdb-40db-bb4c-d0cc3bfab657")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0138"
 			(at 128.27 91.44 0)
 			(effects
 				(font
@@ -18479,7 +17438,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0139")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -18563,7 +17522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a730dc3a-5f70-4622-a16a-247e378a139e")
-		(property "Reference" "R113"
+		(property "Reference" "R114"
 			(at 44.958 162.052 0)
 			(effects
 				(font
@@ -18617,72 +17576,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 189.23 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a75f553c-f573-470e-8473-255036b9c9b8")
-		(property "Reference" "#PWR0104"
-			(at 189.23 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 188.976 17.526 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 189.23 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7e5088b-5608-4aa2-b520-9492b4d0c844")
-		)
-		(instances
-			(project "Tastatur"
-				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0104")
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -18836,7 +17730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aefaed74-8ea5-448a-9ce0-c339cec39d13")
-		(property "Reference" "R114"
+		(property "Reference" "R115"
 			(at 78.74 166.116 0)
 			(effects
 				(font
@@ -18890,7 +17784,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R114")
+					(reference "R115")
 					(unit 1)
 				)
 			)
@@ -18905,7 +17799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afc47b09-c27d-45f0-b511-11d379560cea")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0141"
 			(at 26.67 109.22 0)
 			(effects
 				(font
@@ -18955,7 +17849,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0142")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -19036,7 +17930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b13c5c93-07ab-49fa-85b5-3825efbd5200")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0106"
 			(at 213.36 27.94 0)
 			(effects
 				(font
@@ -19088,7 +17982,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0108")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -19104,7 +17998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b216819a-2cc1-4bc9-b97c-5955f46ab020")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0161"
 			(at 130.81 167.64 0)
 			(effects
 				(font
@@ -19156,7 +18050,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0162")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -19172,7 +18066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b40d570a-994d-4c5b-a7ae-2156acfc01d6")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0132"
 			(at 156.21 82.55 0)
 			(effects
 				(font
@@ -19223,7 +18117,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0133")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -19231,8 +18125,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
-		(at 143.51 114.3 270)
-		(mirror x)
+		(at 143.51 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19240,7 +18133,7 @@
 		(dnp no)
 		(uuid "b5158397-251e-4d40-80d7-634fe8979b63")
 		(property "Reference" "Q104"
-			(at 139.7 118.364 0)
+			(at 145.288 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19249,7 +18142,7 @@
 			)
 		)
 		(property "Value" "SI2301CDS-T1-GE3"
-			(at 137.922 107.95 90)
+			(at 149.098 107.95 90)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -19258,7 +18151,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 146.05 109.22 0)
+			(at 140.97 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19285,7 +18178,7 @@
 			)
 		)
 		(property "PN" "SI2301CDS-T1-GE3"
-			(at 142.494 108.204 90)
+			(at 144.526 108.204 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -19405,7 +18298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b811d24d-831e-46d8-83e3-d1bbdc66c70f")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0153"
 			(at 107.95 135.89 0)
 			(effects
 				(font
@@ -19456,7 +18349,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0154")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -19471,7 +18364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8fe1613-bc37-4185-9288-f39f071e9e65")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0104"
 			(at 243.84 29.21 0)
 			(effects
 				(font
@@ -19522,7 +18415,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0106")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -19538,7 +18431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b982643a-3d2a-4906-ac2b-7a52c70fd19e")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0134"
 			(at 237.49 82.55 0)
 			(effects
 				(font
@@ -19588,7 +18481,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0135")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -19603,7 +18496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbeb8cee-1c5c-48e1-8808-34429f7e3c7d")
-		(property "Reference" "R103"
+		(property "Reference" "R104"
 			(at 46.99 77.47 90)
 			(effects
 				(font
@@ -19655,7 +18548,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R103")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -19808,7 +18701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1e033f7-1909-4997-91a4-4c3ace7d8a2c")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0144"
 			(at 91.44 110.49 0)
 			(effects
 				(font
@@ -19858,7 +18751,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0145")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -19874,7 +18767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c258ad16-f9c0-4bca-b9d8-96c42adc127b")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0160"
 			(at 48.26 173.99 0)
 			(effects
 				(font
@@ -19925,7 +18818,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0161")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -19940,7 +18833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6c98a8d-defc-45b4-9df4-2e16275fe950")
-		(property "Reference" "R109"
+		(property "Reference" "R110"
 			(at 50.038 128.524 0)
 			(effects
 				(font
@@ -20002,7 +18895,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R109")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -20206,7 +19099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccf14058-4cdd-41db-871d-c54cbb801cf4")
-		(property "Reference" "R104"
+		(property "Reference" "R105"
 			(at 150.114 76.454 0)
 			(effects
 				(font
@@ -20260,7 +19153,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R104")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -20343,7 +19236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0780feb-8152-49d7-856b-64ab0a2563d5")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0167"
 			(at 30.48 193.04 0)
 			(effects
 				(font
@@ -20394,7 +19287,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0168")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -20410,7 +19303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4625e14-5a44-44db-bf1c-431dfc839fb0")
-		(property "Reference" "R102"
+		(property "Reference" "R103"
 			(at 72.39 50.7999 0)
 			(effects
 				(font
@@ -20464,7 +19357,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R102")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -20564,7 +19457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d53ca4e9-046c-4bdd-9ff0-601a4c0ce113")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0130"
 			(at 177.8 77.47 0)
 			(effects
 				(font
@@ -20615,7 +19508,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0131")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -20630,7 +19523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d57c11f1-c1bb-486c-bc03-974d17d6f2f7")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0124"
 			(at 261.62 67.31 0)
 			(effects
 				(font
@@ -20681,7 +19574,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0125")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -20697,7 +19590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9b833a4-673e-47ab-8b94-ed9221c257f4")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0111"
 			(at 279.4 40.64 0)
 			(effects
 				(font
@@ -20749,7 +19642,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0113")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -20764,7 +19657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da54bde1-0fae-44f0-939a-7e1e8475762f")
-		(property "Reference" "R105"
+		(property "Reference" "R106"
 			(at 150.114 81.788 0)
 			(effects
 				(font
@@ -20818,7 +19711,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R105")
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -20920,7 +19813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd539146-0996-4149-8e58-67d919a6992a")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0158"
 			(at 135.89 140.97 0)
 			(effects
 				(font
@@ -20972,7 +19865,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0159")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -20988,7 +19881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dec57abc-3762-4434-94aa-a660e765b6dd")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0103"
 			(at 60.96 25.4 0)
 			(effects
 				(font
@@ -21039,7 +19932,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0105")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -21055,7 +19948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0bd8463-2eed-4e04-969e-35856cca9137")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0164"
 			(at 82.55 185.42 0)
 			(effects
 				(font
@@ -21106,7 +19999,73 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0165")
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0ea2a68-58e2-4891-97d6-722b7b665fbd")
+		(property "Reference" "#PWR0117"
+			(at 271.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47bfd72f-68db-40d4-88d9-47b56b28528c")
+		)
+		(instances
+			(project "Tastatur"
+				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -21258,7 +20217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e53b9a0a-a787-4d3c-8eac-9d66475abb05")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0125"
 			(at 115.57 68.58 0)
 			(effects
 				(font
@@ -21308,7 +20267,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0126")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -21533,7 +20492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb6be24d-286a-45f3-9860-5e60ee9b296c")
-		(property "Reference" "R106"
+		(property "Reference" "R107"
 			(at 16.002 110.49 90)
 			(effects
 				(font
@@ -21587,7 +20546,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R106")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -21602,7 +20561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebbf0f80-830f-4479-9e56-b1cd6c51174b")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0105"
 			(at 123.19 30.48 0)
 			(effects
 				(font
@@ -21652,7 +20611,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0107")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -21668,7 +20627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efa7657c-9e65-4cc9-a8a2-45fa3b562d58")
-		(property "Reference" "R101"
+		(property "Reference" "R102"
 			(at 72.39 35.5599 0)
 			(effects
 				(font
@@ -21722,7 +20681,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R101")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -21738,7 +20697,7 @@
 		(dnp no)
 		(uuid "f0f17f49-6c0f-4e2f-9c48-1032a0d757c4")
 		(property "Reference" "C112"
-			(at 120.904 136.398 0)
+			(at 109.474 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21747,7 +20706,7 @@
 			)
 		)
 		(property "Value" "470u"
-			(at 111.76 138.938 0)
+			(at 109.474 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21905,7 +20864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6063ce4-2aed-4daa-9350-aeb658f4877c")
-		(property "Reference" "R112"
+		(property "Reference" "R113"
 			(at 53.848 154.432 0)
 			(effects
 				(font
@@ -21959,7 +20918,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R112")
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -22041,7 +21000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f86fa926-9184-4e54-b0c4-5c940c25c45d")
-		(property "Reference" "TP104"
+		(property "Reference" "TP103"
 			(at 67.564 65.532 0)
 			(effects
 				(font
@@ -22093,7 +21052,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "TP104")
+					(reference "TP103")
 					(unit 1)
 				)
 			)
@@ -22109,7 +21068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f928d821-289a-4576-b69c-1c22a690d1ac")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0157"
 			(at 118.11 146.05 0)
 			(effects
 				(font
@@ -22160,7 +21119,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0158")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -22175,7 +21134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb1d4811-e78a-4665-908e-3f6fbff9c846")
-		(property "Reference" "J103"
+		(property "Reference" "J102"
 			(at 131.826 106.68 0)
 			(effects
 				(font
@@ -22183,7 +21142,7 @@
 				)
 			)
 		)
-		(property "Value" "XT60PW-M"
+		(property "Value" "XT60PW-F"
 			(at 132.588 109.22 0)
 			(effects
 				(font
@@ -22191,7 +21150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
 			(at 129.54 111.76 0)
 			(effects
 				(font
@@ -22227,7 +21186,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "J103")
+					(reference "J102")
 					(unit 1)
 				)
 			)
@@ -22326,7 +21285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdd38512-d86b-4db0-ae51-c8420f64588c")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0128"
 			(at 48.26 74.93 0)
 			(effects
 				(font
@@ -22376,7 +21335,7 @@
 		(instances
 			(project ""
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0129")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -22472,7 +21431,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe738226-e75b-494e-bb57-f225b32203f3")
-		(property "Reference" "R110"
+		(property "Reference" "R111"
 			(at 67.564 129.54 90)
 			(effects
 				(font
@@ -22524,7 +21483,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R110")
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -22622,7 +21581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff81524c-8a28-4120-935f-f8e9fc4c9cb7")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0118"
 			(at 54.61 66.04 0)
 			(effects
 				(font
@@ -22673,7 +21632,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0120")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -22689,7 +21648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffba20b6-3ccb-4740-b070-785b5ee987f1")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0120"
 			(at 69.85 66.04 0)
 			(effects
 				(font
@@ -22740,7 +21699,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "#PWR0122")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -22756,7 +21715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fffe7720-d4e8-45e5-95cf-0cf0ababa58b")
-		(property "Reference" "R108"
+		(property "Reference" "R109"
 			(at 77.47 109.2199 0)
 			(effects
 				(font
@@ -22810,7 +21769,7 @@
 		(instances
 			(project "Tastatur"
 				(path "/45d88654-da0b-4839-a06f-4e702f5c7576"
-					(reference "R108")
+					(reference "R109")
 					(unit 1)
 				)
 			)
