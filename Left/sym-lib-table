@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "steew")(type "KiCad")(uri "/home/steew/stuff/dev/kicad-library/steew.kicad_sym")(options "")(descr ""))
+)
